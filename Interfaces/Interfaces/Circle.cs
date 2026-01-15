@@ -10,19 +10,19 @@ namespace Interfaces
     internal class Circle : IPosition, IArea 
     {
         //Added private int for the Circle's X and Y positions
-        private int xCircle;
-        private int yCircle;
+        private int x = 0;
+        private int y = 0;
 
         //Method that gets and returns the X to the xCircle
         public double X
         {
             get
             {
-                return xCircle;
+                return X;
             }
             set
             {
-                double X;
+                double x;
             }
         }
 
@@ -31,14 +31,20 @@ namespace Interfaces
         {
             get
             {
-                return yCircle;
+                return Y;
             }
             set
             {
-                double Y;
+                double y;
             }
         }
 
+        //Constructor to add in the x and y units
+        Circle(int x, int y)
+        {
+            this.X = x;
+            this.Y = y;
+        }
 
     }
 }

@@ -10,19 +10,20 @@ namespace Interfaces
     internal class Point : IPosition 
     {
         //Added private ints for the Point's X and Y coordinates
-        private int xPoint;
-        private int yPoint;
+        private int x = 0;
+        private int y = 0;
+
 
         //Method that gets and returns the X to the xPoint
         public double X
         {
             get
             {
-                return xPoint;
+                return X;
             }
             set
             {
-                double X;
+                double x;
             }
         }
 
@@ -31,14 +32,20 @@ namespace Interfaces
         {
             get
             {
-                return yPoint;
+                return Y;
             }
             set
             {
-                double Y;
+                double y;
             }
         }
 
+        //Constructor to add in the x and y units
+        Point(int x, int y)
+        {
+            this.X = x;
+            this.Y = y;
+        }
 
     }
 }

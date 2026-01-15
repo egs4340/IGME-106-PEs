@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{0F2293BD-AFC5-4B1C-BA05-92A4EAA2C7FF}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F2293BD-AFC5-4B1C-BA05-92A4EAA2C7FF}|Interfaces\\Interfaces.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\interfaces\\interfaces\\iposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2293BD-AFC5-4B1C-BA05-92A4EAA2C7FF}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\iposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F2293BD-AFC5-4B1C-BA05-92A4EAA2C7FF}|Interfaces\\Interfaces.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\interfaces\\interfaces\\iarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F2293BD-AFC5-4B1C-BA05-92A4EAA2C7FF}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\iarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2293BD-AFC5-4B1C-BA05-92A4EAA2C7FF}|Interfaces\\Interfaces.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\interfaces\\interfaces\\iposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2293BD-AFC5-4B1C-BA05-92A4EAA2C7FF}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\iposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F2293BD-AFC5-4B1C-BA05-92A4EAA2C7FF}|Interfaces\\Interfaces.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\interfaces\\interfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Interfaces\\Point.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Interfaces\\Interfaces\\Point.cs",
               "RelativeToolTip": "Interfaces\\Point.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T17:30:12.2Z",
               "EditorCaption": ""
@@ -57,14 +57,14 @@
               "RelativeDocumentMoniker": "Interfaces\\Circle.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Interfaces\\Interfaces\\Circle.cs",
               "RelativeToolTip": "Interfaces\\Circle.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T17:29:56.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IPosition.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Interfaces\\Interfaces\\IPosition.cs",
               "RelativeDocumentMoniker": "Interfaces\\IPosition.cs",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IArea.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Interfaces\\Interfaces\\IArea.cs",
               "RelativeDocumentMoniker": "Interfaces\\IArea.cs",
