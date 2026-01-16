@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\",
+  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\managersandfileio\\managersandfileio\\beholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|solutionrelative:managersandfileio\\beholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\managersandfileio\\managersandfileio\\monstermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\managersandfileio\\managersandfileio\\monstermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|solutionrelative:managersandfileio\\monstermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\managersandfileio\\managersandfileio\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\managersandfileio\\managersandfileio\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|solutionrelative:managersandfileio\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\managersandfileio\\managersandfileio\\dragon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|solutionrelative:managersandfileio\\dragon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\managersandfileio\\managersandfileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\managersandfileio\\managersandfileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|solutionrelative:managersandfileio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\managersandfileio\\managersandfileio\\answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\managersandfileio\\managersandfileio\\dragon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|solutionrelative:managersandfileio\\dragon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\managersandfileio\\managersandfileio\\answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|solutionrelative:managersandfileio\\answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\managersandfileio\\managersandfileio\\beholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E6E0EB-FB36-417A-A23E-75505328B8B4}|ManagersAndFileIO\\ManagersAndFileIO.csproj|solutionrelative:managersandfileio\\beholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Dragon.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Dragon.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Dragon.cs",
               "RelativeDocumentMoniker": "ManagersAndFileIO\\Dragon.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Dragon.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Dragon.cs",
               "RelativeToolTip": "ManagersAndFileIO\\Dragon.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAQwGwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,37 +55,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Monster.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Monster.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Monster.cs",
               "RelativeDocumentMoniker": "ManagersAndFileIO\\Monster.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Monster.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Monster.cs",
               "RelativeToolTip": "ManagersAndFileIO\\Monster.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwBoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T16:22:32.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Beholder.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Beholder.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Beholder.cs",
               "RelativeDocumentMoniker": "ManagersAndFileIO\\Beholder.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Beholder.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Beholder.cs",
               "RelativeToolTip": "ManagersAndFileIO\\Beholder.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAuwHEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA+wHEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T16:22:08.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T16:22:08.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Answers.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Answers.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Answers.cs",
               "RelativeDocumentMoniker": "ManagersAndFileIO\\Answers.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Answers.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Answers.cs",
               "RelativeToolTip": "ManagersAndFileIO\\Answers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,26 +93,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MonsterManager.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\MonsterManager.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\MonsterManager.cs",
               "RelativeDocumentMoniker": "ManagersAndFileIO\\MonsterManager.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\MonsterManager.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\MonsterManager.cs",
               "RelativeToolTip": "ManagersAndFileIO\\MonsterManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T16:19:59.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Program.cs",
               "RelativeDocumentMoniker": "ManagersAndFileIO\\Program.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\Program.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\Program.cs",
               "RelativeToolTip": "ManagersAndFileIO\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T16:19:44.269Z",
               "EditorCaption": ""

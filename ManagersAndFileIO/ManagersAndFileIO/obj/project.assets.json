@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "D:\\Profiles\\egs4340\\.nuget\\packages\\": {},
+    "C:\\Users\\evans\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\ManagersAndFileIO.csproj",
+      "projectUniqueName": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\ManagersAndFileIO.csproj",
       "projectName": "ManagersAndFileIO",
-      "projectPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\ManagersAndFileIO.csproj",
-      "packagesPath": "D:\\Profiles\\egs4340\\.nuget\\packages\\",
-      "outputPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\ManagersAndFileIO\\ManagersAndFileIO\\obj\\",
+      "projectPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\ManagersAndFileIO.csproj",
+      "packagesPath": "C:\\Users\\evans\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\ManagersAndFileIO\\ManagersAndFileIO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "D:\\Profiles\\egs4340\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\evans\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -72,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

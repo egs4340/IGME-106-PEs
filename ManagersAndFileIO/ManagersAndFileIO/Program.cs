@@ -21,6 +21,12 @@ static void Main(string[] args)
     Console.WriteLine(guy1);
     Console.WriteLine(guy2);
 
+
+    //ADDED: Constructor for the MonsterManager
+    MonsterManager monsterManager = new MonsterManager();
+
+
+
     // While both Monsters are alive, fight!
     while (guy1.Health > 0 && guy2.Health > 0)
     {

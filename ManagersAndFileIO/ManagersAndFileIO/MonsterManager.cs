@@ -8,5 +8,9 @@ namespace ManagersAndFileIO
 {
     internal class MonsterManager
     {
+        List<Monster> monsterList = new List<Monster>() {  };
+
+
+
     }
 }
