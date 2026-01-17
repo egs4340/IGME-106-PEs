@@ -8,8 +8,14 @@ namespace ManagersAndFileIO
 {
     internal class MonsterManager
     {
-        List<Monster> monsterList = new List<Monster>() {  };
+        public MonsterManager()
+        {
+            List<Monster> monsterList = new List<Monster>();
+            monsterList.Add(Dragon);
+            monsterList.Add(Beholder);
 
+
+        }
 
 
     }
