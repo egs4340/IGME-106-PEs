@@ -15,9 +15,21 @@ namespace ManagersAndFileIO
         StreamReader ReadBeholderData = null!;
         public MonsterManager()
         {
+            //Added the Dragon and Beholder to be used by the Monster Manager
+            Dragon guy1;                // Fighter #1
+            Beholder guy2;              // Fighter #2
+
+            //Declares the variables of the 'new' guys.
+            guy1 = new Dragon("Dude 1", 100, Damage.Ice, Damage.Lightning);
+            guy2 = new Beholder("Dude 2", 115, Damage.Psychic, Damage.Ice);
+
+
+            //Creation of the monster list for the Monster Manager
             List<Monster> monsterList = new List<Monster>();
-            monsterList.Add(Dragon);
-            monsterList.Add(Beholder);
+            
+            monsterList.Add(guy1);
+            monsterList.Add(guy2);
+
 
             //Added Try catch for the Stream Readers of the Dragon and Beholder Data
             try

@@ -16,6 +16,8 @@ static void Main(string[] args)
     guy1 = new Dragon("Dude 1", 100, Damage.Ice, Damage.Lightning);
     guy2 = new Beholder("Dude 2", 115, Damage.Psychic, Damage.Ice);
 
+    List<Monster> monsterList;
+
     // Print their beginning statistics
     Console.WriteLine("MEET THE CHAMPIONS:");
     Console.WriteLine(guy1);
