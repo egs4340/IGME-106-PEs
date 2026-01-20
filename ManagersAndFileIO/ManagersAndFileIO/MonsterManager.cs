@@ -17,6 +17,8 @@ namespace ManagersAndFileIO
         public List<Monster> monsterList;
         public string dragonFile, beholderFile;
         public int dragonCount, beholderCount;
+        
+        //Global Random added to be able to give newly created instances of Dragons and Beholders a random number of health
         public Random random = new Random();
 
         //Constructor for the MonsterManager
@@ -51,29 +53,36 @@ namespace ManagersAndFileIO
             //Added Try catch for the Stream Reader of the Dragon Data
             try
             {
+                //Creates the reader for the DragonData
                 readerDragon = new StreamReader("dragonData.txt");
-
                 string lineFromFile = "";
 
+
+                //Added a While loop based on the Code Demo for File IOs
                 while ((lineFromFile = readerDragon.ReadLine()!) != null)
                 {
+                    //Splits the File Reader at the '|' pipe symbol
                     string[] splitData = lineFromFile.Split('|');
 
+                    //Added the try parse and it's requirements needed to turn the Enumerator from the Dragon Class
+                    //Into a string that can be read when the program instantiates a new Dragon object
                     string temp = splitData[1];
                     Damage dmg;
                     Enum.TryParse<Damage>(temp, out dmg);
 
 
-                    //Gives all the attributes for the read dragon
+                    //Gives all the attributes for the read dragon with the Parameters required to instantiate a new dragon
                     Dragon aDragon = new Dragon(
+
                         splitData[0],           //Dragon's Name
                         random.Next(50, 101),   //Random health from 50 to 100
-                        dmg,                    //The Dragon's Damage
+                        dmg,                    //The Dragon's Damage after being parsed into a string from the enumerator
                         Damage.Lightning);      //Dragon's Resistance
 
                     //Adds the dragon to the list, then adds one to the dragon count
                     monsterList.Add(aDragon);
                     dragonCount++;
+
                 }
             }
 
