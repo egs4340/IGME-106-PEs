@@ -1,5 +1,8 @@
-Glaciarrius|Ice
+Glaciar|Ice
 Stormfront|Lightning
 Seeker|Piercing
-Fearenheit|Fire
+Farenheit|Fire
 Tony|Psychic
+Margaret|Fire
+Blitz|Lightning
+Chilly|Ice
