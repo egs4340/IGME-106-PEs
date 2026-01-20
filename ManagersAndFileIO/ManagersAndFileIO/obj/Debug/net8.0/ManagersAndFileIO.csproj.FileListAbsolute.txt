@@ -1,0 +1,15 @@
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\bin\Debug\net8.0\ManagersAndFileIO.exe
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\bin\Debug\net8.0\ManagersAndFileIO.deps.json
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\bin\Debug\net8.0\ManagersAndFileIO.runtimeconfig.json
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\bin\Debug\net8.0\ManagersAndFileIO.dll
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\bin\Debug\net8.0\ManagersAndFileIO.pdb
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ManagersAndFileIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ManagersAndFileIO.AssemblyInfoInputs.cache
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ManagersAndFileIO.AssemblyInfo.cs
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ManagersAndFileIO.csproj.CoreCompileInputs.cache
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ManagersAndFileIO.sourcelink.json
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ManagersAndFileIO.dll
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\refint\ManagersAndFileIO.dll
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ManagersAndFileIO.pdb
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ManagersAndFileIO.genruntimeconfig.cache
+C:\Users\evans\source\repos\IGME-106-PEs\ManagersAndFileIO\ManagersAndFileIO\obj\Debug\net8.0\ref\ManagersAndFileIO.dll
