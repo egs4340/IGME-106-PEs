@@ -34,13 +34,14 @@ namespace ManagersAndFileIO
         //Parameterized constructor for the MonsterManager
         public MonsterManager(string dragonData, string beholderData)
         {
+            //Fields for the MonsterManager 
             monsterList = new List<Monster>();
             dragonFile = dragonData;
             beholderFile = beholderData;
             dragonCount = 0;
             beholderCount = 0;
-            //ReadDragonData();
-            //ReadBeholderData();
+            ReadDragonData();
+            ReadBeholderData();
         
         }
 
@@ -66,9 +67,8 @@ namespace ManagersAndFileIO
 
                     //Added the try parse and it's requirements needed to turn the Enumerator from the Dragon Class
                     //Into a string that can be read when the program instantiates a new Dragon object
-                    string temp = splitData[1];
-                    Damage dmg;
-                    Enum.TryParse<Damage>(temp, out dmg);
+                    string dmgTemp = splitData[1];
+                    Damage dmg = (Damage)Enum.Parse(typeof(Damage), dmgTemp);
 
 
                     //Gives all the attributes for the read dragon with the Parameters required to instantiate a new dragon
@@ -88,9 +88,9 @@ namespace ManagersAndFileIO
 
 
             //Catch for any errors in parsing a dragon from the file to the list
-            catch (Exception error)
+            catch
             {
-                Console.WriteLine("Error: " + error.Message);
+                Console.WriteLine("Problem reading the file!");
             }
 
 
@@ -115,8 +115,33 @@ namespace ManagersAndFileIO
                 readerBeholder = new StreamReader("beholderData.txt");
 
                 string lineFromFile = "";
-            }
+                //Added a While loop based on the Code Demo for File IOs
+                while ((lineFromFile = readerBeholder.ReadLine()!) != null)
+                {
+                    //Splits the File Reader at the '|' pipe symbol
+                    string[] splitData = lineFromFile.Split('|');
 
+                    //Added the try parse and it's requirements needed to turn the Enumerator from the Beholder Class
+                    //Into a string that can be read when the program instantiates a new Beholder object
+                    string dmgTemp = splitData[1];
+                    Damage dmg = (Damage)Enum.Parse(typeof(Damage), dmgTemp);
+
+
+                    //Gives all the attributes for the read dragon with the Parameters required to instantiate a new beholder
+                    Beholder aBeholder = new Beholder(
+
+                        splitData[0],           //Beholder's Name
+                        random.Next(50, 101),   //Random health from 50 to 100
+                        dmg,                    //The Beholder's Damage after being parsed into a string from the enumerator
+                        Damage.Lightning);      //Beholder's Resistance
+
+                    //Adds the dragon to the list, then adds one to the beholder count
+                    monsterList.Add(aBeholder);
+                    beholderCount++;
+
+                }
+            }
+            //Catch method for any errors when loading the file
             catch
             {
                 Console.WriteLine("Problem reading the file!");
@@ -128,7 +153,11 @@ namespace ManagersAndFileIO
         //Added GetDragon to be able to get a random dragon from the DragonData
         public Dragon GetDragon()
         {
-
+            //Generates a Random number, sets an integer to a random number between 0 and ten, then returns the random number with
+            //the assigned dragon attatched to that number on the monster list
+            Random random = new Random();
+            int i = random.Next(0, 10);
+            return (Dragon)monsterList[i];
 
         }
 
@@ -136,7 +165,21 @@ namespace ManagersAndFileIO
         //Added GetDragonByType to be able to get a dragon with a specific damage type
         public Dragon GetDragonByType(Damage damageType)
         {
+            //Generates a random number, and then it will run a while loop that runs forever, and sets an integer to a random number
+            //between 0 and 10, that gets a dragon and compares if it's attack is the same as the damagetype going into the function,
+            //then returns the dragon and exits the loop when it's a match
+            Random random = new Random();
+            while (true)
+            {
+                int i = random.Next(0, 10);
+                Dragon draco = (Dragon)monsterList[i];
+                
+                if (draco.attackDamage == damageType)
+                {
+                    return draco;
+                }
 
+            }    
 
         }
 
@@ -144,7 +187,11 @@ namespace ManagersAndFileIO
         //Added GetBeholder to be able to get a random beholder from the BeholderData
         public Beholder GetBeholder()
         {
-
+            //Generates a Random number, sets an integer to a random number between 10 and 18, then returns the random number with
+            //the assigned beholder attatched to that number on the monster list
+            Random random = new Random();
+            int i = random.Next(10, 18);
+            return (Beholder)monsterList[i];
 
         }
 
@@ -152,7 +199,21 @@ namespace ManagersAndFileIO
         //Added GetBeholderByType to be able to get a beholder with a specific damage type
         public Beholder GetBeholderByType(Damage damageType)
         {
+            //Generates a random number, and then it will run a while loop that runs forever, and sets an integer to a random number
+            //between 0 and 10, that gets a beholder and compares if it's attack is the same as the damagetype going into the
+            //function, then returns the beholder and exits the loop when it's a match
+            Random random = new Random();
+            while (true)
+            {
+                int i = random.Next(10, 18);
+                Beholder behold = (Beholder)monsterList[i];
 
+                if (behold.attackDamage == damageType)
+                {
+                    return behold;
+                }
+
+            }
 
         }
 

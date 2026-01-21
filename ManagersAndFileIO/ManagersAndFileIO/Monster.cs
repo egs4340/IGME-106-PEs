@@ -28,7 +28,7 @@ namespace ManagersAndFileIO
             // Monster class fields
             protected string name;
             protected int health;
-            protected Damage attackDamage;
+            public Damage attackDamage;
             protected Random generator;
 
             /// <summary>

@@ -1,0 +1,8 @@
+Glaciar|Ice
+Stormfront|Lightning
+Seeker|Piercing
+Farenheit|Fire
+Tony|Psychic
+Margaret|Fire
+Blitz|Lightning
+Chilly|Ice

@@ -1,68 +1,78 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ManagersAndFileIO;
-
-static void Main(string[] args)
+using System;
+class Program
 {
-    // ----------------------------------------------------------------
-    // Variables for the program
-    Dragon guy1;                // Fighter #1
-    Beholder guy2;              // Fighter #2
-    int roundCounter = 1;       // Number of rounds
 
-    // ----------------------------------------------------------------
-    // Battle!
-
-    // Instantiate both fighters
-    guy1 = new Dragon("Dude 1", 100, Damage.Ice, Damage.Lightning);
-    guy2 = new Beholder("Dude 2", 115, Damage.Psychic, Damage.Ice);
-
-
-    // Print their beginning statistics
-    Console.WriteLine("MEET THE CHAMPIONS:");
-    Console.WriteLine(guy1);
-    Console.WriteLine(guy2);
-
-
-    //ADDED: Constructor for the MonsterManager
-    MonsterManager monsterManager = new MonsterManager();
-
-
-    // While both Monsters are alive, fight!
-    while (guy1.Health > 0 && guy2.Health > 0)
+    static void Main(string[] args)
     {
+        // ----------------------------------------------------------------
+        // Variables for the program
+
+        //ADDED: Constructor for the MonsterManager
+        MonsterManager monsterManager = new MonsterManager("dragonData.txt", "beholderData.txt");
+        Dragon guy1 = monsterManager.GetDragon();                                // Fighter #1
+        Beholder guy2 = monsterManager.GetBeholderByType(Damage.Lightning);      // Fighter #2
+                                                                                 //Dragon guy1;                // Fighter #1
+                                                                                 //Beholder guy2;              // Fighter #2
+
+        int roundCounter = 1;       // Number of rounds
+
+        // ----------------------------------------------------------------
+        // Battle!
+
+        // Instantiate both fighters
+
+        //guy1 = new Dragon("Dude 1", 100, Damage.Ice, Damage.Lightning);
+        //guy2 = new Beholder("Dude 2", 115, Damage.Psychic, Damage.Ice);
+
+
+
+
+        // Print their beginning statistics
+        Console.WriteLine("MEET THE CHAMPIONS:");
+        Console.WriteLine(guy1);
+        Console.WriteLine(guy2);
+
+
+
+        // While both Monsters are alive, fight!
+        while (guy1.Health > 0 && guy2.Health > 0)
+        {
+            // Visual divider for spacing and output
+            Console.WriteLine("\n----------------------------------------");
+
+            // Give reader context with the round number
+            Console.WriteLine($"Round {roundCounter}... Fight!");
+            roundCounter++;
+
+            // Attack the other Monster, then print each one's health values.
+            guy1.Attack(guy2);
+            guy2.Attack(guy1);
+            Console.WriteLine($"\n{guy1.Name} is at {guy1.Health} health.");
+            Console.WriteLine($"{guy2.Name} is at {guy2.Health} health.");
+        }
+
+        // ----------------------------------------------------------------
+        // Determine winner!
+
         // Visual divider for spacing and output
-        Console.WriteLine("\n----------------------------------------");
+        Console.WriteLine("\n------------ WINNER ------------");
 
-        // Give reader context with the round number
-        Console.WriteLine($"Round {roundCounter}... Fight!");
-        roundCounter++;
-
-        // Attack the other Monster, then print each one's health values.
-        guy1.Attack(guy2);
-        guy2.Attack(guy1);
-        Console.WriteLine($"\n{guy1.Name} is at {guy1.Health} health.");
-        Console.WriteLine($"{guy2.Name} is at {guy2.Health} health.");
-    }
-
-    // ----------------------------------------------------------------
-    // Determine winner!
-
-    // Visual divider for spacing and output
-    Console.WriteLine("\n------------ WINNER ------------");
-
-    // Tie
-    if (guy1.Health <= 0 && guy2.Health <= 0)
-    {
-        Console.WriteLine("Both fighters have succumbed to the battle.");
-    }
-    // Dragon wins
-    else if (guy1.Health > 0)
-    {
-        Console.WriteLine($"{guy1.Name} is victorius!");
-    }
-    // Beholder wins
-    else
-    {
-        Console.WriteLine($"{guy2.Name} is victorius!");
+        // Tie
+        if (guy1.Health <= 0 && guy2.Health <= 0)
+        {
+            Console.WriteLine("Both fighters have succumbed to the battle.");
+        }
+        // Dragon wins
+        else if (guy1.Health > 0)
+        {
+            Console.WriteLine($"{guy1.Name} is victorius!");
+        }
+        // Beholder wins
+        else
+        {
+            Console.WriteLine($"{guy2.Name} is victorius!");
+        }
     }
 }
