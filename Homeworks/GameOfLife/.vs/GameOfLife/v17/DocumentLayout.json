@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GameOfLife\\",
+  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\gameoflife\\gameoflife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\homeworks\\gameoflife\\gameoflife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|solutionrelative:gameoflife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\gameoflife\\gameoflife\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|solutionrelative:gameoflife\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\homeworks\\gameoflife\\gameoflife\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|solutionrelative:gameoflife\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\gameoflife\\gameoflife\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|solutionrelative:gameoflife\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\homeworks\\gameoflife\\gameoflife\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|solutionrelative:gameoflife\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,39 +30,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GameOfLife\\GameOfLife\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Game.cs",
               "RelativeDocumentMoniker": "GameOfLife\\Game.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GameOfLife\\GameOfLife\\Game.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Game.cs",
               "RelativeToolTip": "GameOfLife\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T17:44:40.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Cell.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GameOfLife\\GameOfLife\\Cell.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Cell.cs",
               "RelativeDocumentMoniker": "GameOfLife\\Cell.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GameOfLife\\GameOfLife\\Cell.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Cell.cs",
               "RelativeToolTip": "GameOfLife\\Cell.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:44:29.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T17:44:29.008Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GameOfLife\\GameOfLife\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Program.cs",
               "RelativeDocumentMoniker": "GameOfLife\\Program.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GameOfLife\\GameOfLife\\Program.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Program.cs",
               "RelativeToolTip": "GameOfLife\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T17:44:11.813Z",
               "EditorCaption": ""
