@@ -25,7 +25,8 @@ namespace GenericsAndIndexers
             // **************************************************
             // ANSWER(s): 
             //
-            //
+            // Lists can grow in size exponentially, we can check what's in our lists at any given time, and Lists can be
+            // holding any number of objects at a time.
 
 
             // --------------------------------------------------------------------
@@ -47,7 +48,8 @@ namespace GenericsAndIndexers
             // **************************************************
             // ANSWER(s): 
             //
-            //
+            // We don't want to set the count, but we want the knowledge of the actual count integer.
+            // Setting the count to something else could potentially cause errors.
 
 
             /// <summary>
@@ -75,7 +77,8 @@ namespace GenericsAndIndexers
             // **************************************************
             // ANSWER(s): 
             //
-            //
+            // It messes with the Array itself, being able to set changes from outside of anything that should be able to
+            // have access to make those changes, and getting the array could also harm the integrity of the array
 
 
             // --------------------------------------------------------------------

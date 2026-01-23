@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\GenericsAndIndexers\\",
+  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\genericsandindexers\\genericsandindexers\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\genericsandindexers\\genericsandindexers\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|solutionrelative:genericsandindexers\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\genericsandindexers\\genericsandindexers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\genericsandindexers\\genericsandindexers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|solutionrelative:genericsandindexers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,17 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomList.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\GenericsAndIndexers\\GenericsAndIndexers\\CustomList.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\GenericsAndIndexers\\CustomList.cs",
               "RelativeDocumentMoniker": "GenericsAndIndexers\\CustomList.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\GenericsAndIndexers\\GenericsAndIndexers\\CustomList.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\GenericsAndIndexers\\CustomList.cs",
               "RelativeToolTip": "GenericsAndIndexers\\CustomList.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAqwPAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwIEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T15:13:34.351Z",
               "EditorCaption": ""
@@ -37,11 +41,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\GenericsAndIndexers\\GenericsAndIndexers\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\GenericsAndIndexers\\Program.cs",
               "RelativeDocumentMoniker": "GenericsAndIndexers\\Program.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\GenericsAndIndexers\\GenericsAndIndexers\\Program.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\GenericsAndIndexers\\Program.cs",
               "RelativeToolTip": "GenericsAndIndexers\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAwJwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T15:12:31.331Z",
               "EditorCaption": ""
