@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using GenericsAndIndexers;
-
-Console.WriteLine("Hello, World!");
+internal class Program()
+{
 static void Main(string[] args)
 {
     // ------------------------------
@@ -10,7 +10,7 @@ static void Main(string[] args)
 
     // Instantiate a custom list of doubles with capacity of 2.
     // A capacity of 2 forces a resize quickly.
-    CustomList myList = new CustomList(2);
+    CustomList<double> myList = new CustomList<double>(2);
 
 
     // ---------------------------------------------------------
@@ -24,7 +24,7 @@ static void Main(string[] args)
     Console.WriteLine("--> List is empty. Exceptions should occur here... <--");
     try
     {
-        Console.WriteLine(myList.GetData(0));
+            Console.WriteLine(myList[0]);
     }
     catch (Exception error)
     {
@@ -33,7 +33,7 @@ static void Main(string[] args)
     // Test SetData exception is properly working for an empty list.
     try
     {
-        myList.SetData(0, 12345.6789);
+            myList[0] = 12345.6789;
     }
     catch (Exception error)
     {
@@ -63,7 +63,7 @@ static void Main(string[] args)
     Console.WriteLine("\n--> Values in my list BEFORE modification<--");
     for (int i = 0; i < myList.Count; i++)
     {
-        Console.WriteLine(myList.GetData(i));
+        Console.WriteLine(myList[i]);
     }
 
 
@@ -76,13 +76,13 @@ static void Main(string[] args)
 
     // Test the SetData method on the first and last items in the list
     //   and reprint the list's contents for confirmation.
-    myList.SetData(0, 0);
-    myList.SetData(myList.Count - 1, myList.Count - 1);
+    myList[0] = 0;
+    myList[myList.Count - 1] = myList.Count - 1;
 
     Console.WriteLine("\n--> Values in my list AFTER modification <--");
     for (int i = 0; i < myList.Count; i++)
     {
-        Console.WriteLine(myList.GetData(i));
+        Console.WriteLine(myList[i]);
     }
 
 
@@ -98,7 +98,7 @@ static void Main(string[] args)
         "Exceptions should occur with invalid indices... <--");
     try
     {
-        Console.WriteLine(myList.GetData(-1));
+            Console.WriteLine(myList[-1]);
     }
     catch (Exception error)
     {
@@ -107,7 +107,7 @@ static void Main(string[] args)
 
     try
     {
-        Console.WriteLine(myList.GetData(myList.Count));
+        Console.WriteLine(myList[myList.Count]);
     }
     catch (Exception error)
     {
@@ -125,7 +125,7 @@ static void Main(string[] args)
     //    a list that contains data. Test -1 and a too-large index.
     try
     {
-        myList.SetData(-1, 12345.6789);
+        myList[-1] = 12345.6789;
     }
     catch (Exception error)
     {
@@ -134,7 +134,7 @@ static void Main(string[] args)
 
     try
     {
-        myList.SetData(myList.Count, 12345.6789);
+        myList[myList.Count] = 12345.6789;
     }
     catch (Exception error)
     {
@@ -169,4 +169,5 @@ static void Main(string[] args)
 
 
 
+}
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\genericsandindexers\\genericsandindexers\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|solutionrelative:genericsandindexers\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\genericsandindexers\\genericsandindexers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|solutionrelative:genericsandindexers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\genericsandindexers\\genericsandindexers\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB7DAC1C-F6AF-4318-92C9-F5AD741E6603}|GenericsAndIndexers\\GenericsAndIndexers.csproj|solutionrelative:genericsandindexers\\customlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CustomList.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\GenericsAndIndexers\\CustomList.cs",
               "RelativeDocumentMoniker": "GenericsAndIndexers\\CustomList.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\GenericsAndIndexers\\CustomList.cs",
               "RelativeToolTip": "GenericsAndIndexers\\CustomList.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAgwIEAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAYwFkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T15:13:34.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\GenericsAndIndexers\\Program.cs",
               "RelativeDocumentMoniker": "GenericsAndIndexers\\Program.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\GenericsAndIndexers\\GenericsAndIndexers\\Program.cs",
               "RelativeToolTip": "GenericsAndIndexers\\Program.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAAwJwAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwIgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-23T15:12:31.331Z",
               "EditorCaption": ""

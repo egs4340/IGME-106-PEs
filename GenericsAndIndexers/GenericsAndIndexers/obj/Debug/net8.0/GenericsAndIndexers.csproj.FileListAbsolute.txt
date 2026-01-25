@@ -1,0 +1,15 @@
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\bin\Debug\net8.0\GenericsAndIndexers.exe
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\bin\Debug\net8.0\GenericsAndIndexers.deps.json
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\bin\Debug\net8.0\GenericsAndIndexers.runtimeconfig.json
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\bin\Debug\net8.0\GenericsAndIndexers.dll
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\bin\Debug\net8.0\GenericsAndIndexers.pdb
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\GenericsAndIndexers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\GenericsAndIndexers.AssemblyInfoInputs.cache
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\GenericsAndIndexers.AssemblyInfo.cs
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\GenericsAndIndexers.csproj.CoreCompileInputs.cache
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\GenericsAndIndexers.sourcelink.json
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\GenericsAndIndexers.dll
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\refint\GenericsAndIndexers.dll
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\GenericsAndIndexers.pdb
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\GenericsAndIndexers.genruntimeconfig.cache
+C:\Users\evans\source\repos\IGME-106-PEs\GenericsAndIndexers\GenericsAndIndexers\obj\Debug\net8.0\ref\GenericsAndIndexers.dll
