@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\homeworks\\gameoflife\\gameoflife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|solutionrelative:gameoflife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\homeworks\\gameoflife\\gameoflife\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|solutionrelative:gameoflife\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\homeworks\\gameoflife\\gameoflife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|solutionrelative:gameoflife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF7CCF5C-5923-4166-B77B-95F04582F880}|GameOfLife\\GameOfLife.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\homeworks\\gameoflife\\gameoflife\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Game.cs",
               "RelativeDocumentMoniker": "GameOfLife\\Game.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Game.cs",
               "RelativeToolTip": "GameOfLife\\Game.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAALEAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T17:44:40.487Z",
               "EditorCaption": ""
@@ -49,19 +49,20 @@
               "RelativeDocumentMoniker": "GameOfLife\\Cell.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Cell.cs",
               "RelativeToolTip": "GameOfLife\\Cell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwBEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:44:29.008Z"
+              "WhenOpened": "2026-01-22T17:44:29.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Program.cs",
               "RelativeDocumentMoniker": "GameOfLife\\Program.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\Homeworks\\GameOfLife\\GameOfLife\\Program.cs",
               "RelativeToolTip": "GameOfLife\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T17:44:11.813Z",
               "EditorCaption": ""
