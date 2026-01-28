@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E9B4ED-3E1B-4B2D-A96A-7AF80DECFE6E}|LinkedLists\\LinkedLists.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\linkedlists\\linkedlists\\customlinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E9B4ED-3E1B-4B2D-A96A-7AF80DECFE6E}|LinkedLists\\LinkedLists.csproj|solutionrelative:linkedlists\\customlinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E9B4ED-3E1B-4B2D-A96A-7AF80DECFE6E}|LinkedLists\\LinkedLists.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\linkedlists\\linkedlists\\customlinkednode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E9B4ED-3E1B-4B2D-A96A-7AF80DECFE6E}|LinkedLists\\LinkedLists.csproj|solutionrelative:linkedlists\\customlinkednode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E9B4ED-3E1B-4B2D-A96A-7AF80DECFE6E}|LinkedLists\\LinkedLists.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\linkedlists\\linkedlists\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E9B4ED-3E1B-4B2D-A96A-7AF80DECFE6E}|LinkedLists\\LinkedLists.csproj|solutionrelative:linkedlists\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomLinkedList.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\CustomLinkedList.cs",
+              "RelativeDocumentMoniker": "LinkedLists\\CustomLinkedList.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\CustomLinkedList.cs",
+              "RelativeToolTip": "LinkedLists\\CustomLinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:33:54.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomLinkedNode.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\CustomLinkedNode.cs",
+              "RelativeDocumentMoniker": "LinkedLists\\CustomLinkedNode.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\CustomLinkedNode.cs",
+              "RelativeToolTip": "LinkedLists\\CustomLinkedNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:29:35.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\Program.cs",
+              "RelativeDocumentMoniker": "LinkedLists\\Program.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\Program.cs",
+              "RelativeToolTip": "LinkedLists\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:29:09.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
