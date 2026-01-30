@@ -9,31 +9,30 @@ namespace LinkedLists
     internal class CustomLinkedNode<T>
     {
 
-        //privte generic data
-        private T data;
+        //privte data integer
+        private int data;
 
-        //Next node in the list
+        //adds the next node
         private CustomLinkedNode<T> next
         {
-            //Basic get/set for the next class
-            get { return next; }
+                //Basic get/set for the next class
+                get { return next; }
 
-            set { return; }
+                set { return; }
         }
 
-
-        
-
         //Constructor for the Custom Linked Node
-       public CustomLinkedNode(int data)
+        public CustomLinkedNode(int newData)
        
        {
-            //
-            data = 0;
+            //data is set to newdata
+            data = newData;
 
-            //
+            //next node is set to null
             next = null;
        }
+
+        
 
 
         
