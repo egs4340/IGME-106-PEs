@@ -37,8 +37,6 @@ public class Program()
 
 
         Console.WriteLine(linkList);
-
-        //I wasn't able to make the program do what it needed to do, I'm sorry
         
     }
 }
