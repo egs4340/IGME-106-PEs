@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace LinkedLists
 {
@@ -17,13 +19,14 @@ namespace LinkedLists
         //makes a CustomLinkedNode named head
         private CustomLinkedNode<T> head;
 
-        
+        private CustomLinkedNode<T> tail;
 
         //Constructor for CustomLinkedList
         public CustomLinkedList()
         {
             count = 0;
             head = null;
+            tail = null;
         }
 
 
@@ -79,8 +82,14 @@ namespace LinkedLists
             for (int i = 0; i < count; i++)
             {
                 CustomLinkedNode<T> node = head;
+                node.Data = data;
+                head = node;
+                tail = node.Next;
                 count++;
             }
+
+
+            
 
         }
 
@@ -117,6 +126,18 @@ namespace LinkedLists
                 //Catches anything that tries to put something in a negative position or larger than the size of the array
                 throw new IndexOutOfRangeException(exceptionMessage);
             }
+        }
+
+        //Added RemoveAt method, which should (HOPEFULLY) set the index to an empty value and make it nullified.
+        public T RemoveAt(int index)
+        {
+            if(index >= 0 && index < count)
+            { 
+                index = int.Parse("");
+                count--;
+            }
+
+            return this[index];
         }
 
     }
