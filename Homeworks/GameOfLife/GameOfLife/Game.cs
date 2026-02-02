@@ -37,16 +37,16 @@ namespace GameOfLife
         public void GenerateBoard()
         {
             //gets random height and width, sets the board to the cell
-            height = random.Next(6, 24);
-            width = random.Next(6, 24);
-            board = new Cell[height, width];
+            width = random.Next(2, 5);
+            height = random.Next(2, 5);
+            board = new Cell[width, height];
             boardPopulated = true;
 
             //For loop to set height
-            for (int i = 0; i < height; i++)
+            for (int i = 0; i < width; i++)
             {
                 //for loop to set width
-                for (int j = 0; j < width; j++)
+                for (int j = 0; j < height; j++)
                 {
                     board[i, j] = new Cell();
                 }
@@ -54,7 +54,7 @@ namespace GameOfLife
 
 
             //writes out the board's height and width
-            Console.WriteLine($"I am generating a board of {height} x {width}!");
+            Console.WriteLine($"I am generating a board of {width} x {height}!");
 
 
         }
@@ -72,10 +72,10 @@ namespace GameOfLife
 
 
             //For loop to get height
-            for (int i = 0; i < height; i++)
+            for (int j = 0; j < height; j++)
             {
                 //For loop to get width
-                for (int j = 0; j < width; j++)
+                for (int i = 0; i < width; i++)
                 {
                     Console.Write(board[i, j]);
                 }
@@ -83,28 +83,161 @@ namespace GameOfLife
             }
 
             //Popup for the sub menu
-            Console.WriteLine("1 - Advance, 2 - Save Current Board, or 3 - Main Menu?");
-            int choice = int.Parse(Console.ReadLine());
-            
-            //Choice for advancing
-            if (choice == 1)
+            int choice = 99;
+
+            //loop to keep the submenu popping up
+            while (choice != 3)
             {
-                Console.WriteLine("Advance choice to be implemented");
-            }
-            
-            //Choice for saving the current board
-            else if (choice == 2)
-            {
-                Save("Junk.txt");
-            }
-            
-            //choice for Main Menu
-            else if (choice == 3)
-            {
-                return;
+
+                Console.WriteLine("1 - Advance, 2 - Save Current Board, or 3 - Main Menu?");
+                choice = int.Parse(Console.ReadLine());
+
+
+                //Choice for advancing
+
+
+                // ALL OF THIS CODE WAS TAKEN FROM FURTHER BELOW IN THE CODE TO MAKE BOTH PARTS BE ABLE TO RUN IT
+                
+                if (choice == 1)
+                {
+                    Cell[,] futureBoard;
+
+                    int neighborCount;
+
+                    futureBoard = new Cell[width, height];
+
+                    //for loops that:
+                    //examine all the elements in board
+                    //determine if they are alive or dead in the next round
+                    //put x for dead or o for alive in future board
+                    for (int i = 0; i < width; i++)
+                    {
+                        neighborCount = 0;
+
+                        for (int j = 0; j < height; j++)
+                        {
+                            //check northwest
+                            if (i - 1 >= 0 && j - 1 >= 0)
+                            {
+                                if (board[i - 1, j - 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check north
+                            if (j - 1 >= 0)
+                            {
+                                if (board[i, j - 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check northeast
+                            if (j - 1 >= 0 && i + 1 < width)
+                            {
+                                if (board[i + 1, j - 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check west
+                            if (i - 1 >= 0)
+                            {
+                                if (board[i - 1, j].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check east
+                            if (i + 1 < width)
+                            {
+                                if (board[i + 1, j].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check south
+                            if (j + 1 < height)
+                            {
+                                if (board[i, j + 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check southwest
+                            if (j + 1 < height && i - 1 >= 0)
+                            {
+                                if (board[i - 1, j + 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check southeast
+                            if (j + 1 < height && i + 1 < width)
+                            {
+                                if (board[i + 1, j + 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //sets the cell to dead
+                            if (neighborCount <= 1)
+                            {
+                                futureBoard[i, j] = new Cell();
+                                futureBoard[i, j].AliveSymbol = Dead;
+                                futureBoard[i, j].alive = false;
+                            }
+
+                            //sets the cell to alive
+                            if (neighborCount == 2 || neighborCount == 3)
+                            {
+                                futureBoard[i, j] = new Cell();
+                                futureBoard[i, j].AliveSymbol = Alive;
+                                futureBoard[i, j].alive = true;
+
+                            }
+
+                            //sets the cell to dead
+                            if (neighborCount >= 4)
+                            {
+                                futureBoard[i, j] = new Cell();
+                                futureBoard[i, j].AliveSymbol = Dead;
+                                futureBoard[i, j].alive = false;
+                            }
+
+                            //sets the dead symbol to life
+                            if (board[i, j].alive != true && neighborCount == 3)
+                            {
+                                futureBoard[i, j] = new Cell();
+                                futureBoard[i, j].AliveSymbol = Alive;
+                                futureBoard[i, j].alive = true;
+                            }
+                        }
+
+
+                    }
+                    //sets the board to the futureboard
+                    for (int i = 0; i < width; i++)
+                    {
+                        for (int j = 0; j < height; j++)
+                        {
+                            board[i, j] = futureBoard[i, j];
+                        }
+                    }
+
+                    DisplayBoard();
+                }
             }
 
-        }
+            }
 
         //Had Board Method
         public bool HasBoard()
@@ -144,8 +277,8 @@ namespace GameOfLife
 
                 //split size that gets the dimentions for height and width and parses it into that
                 string[] splitSize = size.Split(",");
-                height = int.Parse(splitSize[0]);
-                width = int.Parse(splitSize[1]);
+                width = int.Parse(splitSize[0]);
+                height = int.Parse(splitSize[1]);
 
 
                 //readline for symbol
@@ -158,38 +291,47 @@ namespace GameOfLife
                 Dead = splitSymbol[1];
 
                 //gets height and width from the file, sets the board to the file
-                board = new Cell[height, width];
+                board = new Cell[width, height];
                 boardPopulated = true;
 
                 //for loop to get the height
-                for (int i = 0; i < height; i++)
+                for (int i = 0; i < width; i++)
                 {
                     //for loop to get the width
-                    for (int j = 0; j < width; j++)
+                    for (int j = 0; j < height; j++)
                     {
                         board[i, j] = new Cell();
+
                     }
                 }
 
                 //while loop that sets the linefromfile to read the next conway line as long as there's lines left to read
                 while ((lineFromFile = conway.ReadLine()!) != null)
                 {
-                    //Gets the save file, tries to save them but it doesn't do a very good job at it. I'm not well versed
-                    //in how to take a string and break it into individual pieces without a split character
-                    string[] splitLife = lineFromFile.Split();
+                    //Gets the save file, tries to save them but it doesn't do a very good job at it. I found a way to load
+                    //the file using a char Array instead of a regular string array.
+                    int j = 0;
+                    char[] splitLife = lineFromFile.ToCharArray();
                     for (int i = 0; i < splitLife.Length; i++)
                     {
-                        if (splitLife[i] == "")
+                        if (splitLife[i] == 'o')
                         {
+
                             Console.Write(Alive);
+                            board[i, j] = new Cell();
+                            board[i, j].alive = true;
                         }
+
                         else
                         {
                             Console.Write(Dead);
+                            board[i, j] = new Cell();
+                            board[i, j].alive = false;
                         }
                             
                     }
                     Console.WriteLine();
+                    j++;
 
                 }
 
@@ -212,26 +354,166 @@ namespace GameOfLife
                 }
             }
             //Popup for the sub menu
-            Console.WriteLine("1 - Advance, 2 - Save Current Board, or 3 - Main Menu?");
-            int choice = int.Parse(Console.ReadLine());
+            int choice = 99;
 
-            //Choice for advancing
-            if (choice == 1)
+            //loop to keep the submenu popping up
+            while (choice != 3)
             {
-                Console.WriteLine("Advance choice to be implemented");
+
+                Console.WriteLine("1 - Advance, 2 - Save Current Board, or 3 - Main Menu?");
+                choice = int.Parse(Console.ReadLine());
+
+
+                //Choice for advancing
+                if (choice == 1)
+                {
+                    Cell[,] futureBoard;
+
+                    int neighborCount;
+
+                    futureBoard = new Cell[width, height];
+
+                    //for loops that:
+                    //examine all the elements in board
+                    //determine if they are alive or dead in the next round
+                    //put x for dead or o for alive in future board
+                    for(int i  = 0; i < width; i++)
+                    {
+                        neighborCount = 0;
+
+                        for(int j = 0; j < height; j++)
+                        {
+                            //check northwest
+                            if (i - 1 >= 0 && j - 1 >= 0)
+                            {
+                                if (board[i - 1, j - 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check north
+                            if (j - 1 >= 0)
+                            {
+                                if (board[i, j - 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check northeast
+                            if (j - 1 >= 0 && i + 1 < width)
+                            {
+                                if (board[i + 1, j - 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check west
+                            if (i - 1 >= 0)
+                            {
+                                if (board[i - 1, j].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check east
+                            if (i + 1 < width)
+                            {
+                                if (board[i + 1, j].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check south
+                            if (j + 1 < height)
+                            {
+                                if (board[i, j + 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check southwest
+                            if (j + 1 < height && i - 1 >= 0)
+                            {
+                                if (board[i - 1, j + 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //check southeast
+                            if (j + 1 < height && i + 1 < width)
+                            {
+                                if (board[i + 1, j + 1].alive)
+                                {
+                                    neighborCount++;
+                                }
+                            }
+
+                            //sets the cell to dead
+                            if(neighborCount <= 1)
+                            {
+                                futureBoard[i, j] = new Cell();
+                                futureBoard[i, j].AliveSymbol = Dead;
+                                futureBoard[i, j].alive = false;
+                            }
+
+                            //sets the cell to alive
+                            if(neighborCount == 2 || neighborCount == 3)
+                            {
+                                futureBoard[i, j] = new Cell();
+                                futureBoard[i, j].AliveSymbol = Alive;
+                                futureBoard[i, j].alive = true;
+
+                            }
+
+                            //sets the cell to dead
+                            if(neighborCount >= 4)
+                            {
+                                futureBoard[i, j] = new Cell();
+                                futureBoard[i, j].AliveSymbol = Dead;
+                                futureBoard[i, j].alive = false;
+                            }
+
+                            //sets the dead symbol to life
+                            if (board[i,j].alive != true && neighborCount == 3)
+                            {
+                                futureBoard[i, j] = new Cell();
+                                futureBoard[i, j].AliveSymbol = Alive;
+                                futureBoard[i, j].alive = true;
+                            }
+                        }
+
+
+                    }
+
+                    //sets the board to the futureboard
+                    for(int i = 0; i < width; i++)
+                    {
+                        for(int j  = 0; j < height; j++)
+                        {
+                            board[i,j] = futureBoard[i,j];
+                        }
+                    }
+
+                    DisplayBoard();
+                }
+
+                //Choice for saving the current board
+                else if (choice == 2)
+                {
+                    Save("Junk.txt");
+                }
+
             }
 
-            //Choice for saving the current board
-            else if (choice == 2)
-            {
-                Save("Junk.txt");
-            }
-
-            //choice for Main Menu
-            else if (choice == 3)
-            {
-                return;
-            }
+            //breaks the loop to return to the main menu
+            return;
 
         }
 
@@ -245,19 +527,19 @@ namespace GameOfLife
             {
                 //Writer for the output
                 output = new StreamWriter(FileName);
-                output.Write(height);
+                output.Write(width);
                 output.Write(", ");
-                output.WriteLine(width);
+                output.WriteLine(height);
                 output.Write(cell.AliveSymbol);
                 output.Write(", ");
                 output.WriteLine(cell.DeadSymbol);
 
                 //Copied for loop to write the board to the output
-                for (int i = 0; i < height; i++)
+                for (int i = 0; i < width; i++)
                 {
-                    for (int j = 0; j < width; j++)
+                    for (int j = 0; j < height; j++)
                     {
-                        if (board[i, j].Alive == Alive)
+                        if (board[i, j].AliveSymbol == Alive)
                         {
                             output.Write("x");
                         }

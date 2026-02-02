@@ -8,7 +8,7 @@ class Program
     static void Main(string[] args)
     {
         //int for getting choice
-        int choice;
+        int menuChoice;
 
         //Game constructor
         Game game = new Game();
@@ -26,25 +26,25 @@ class Program
             Console.WriteLine("Your choice: ");
 
             //choice method to parse readlines
-            choice = int.Parse(Console.ReadLine());
+            menuChoice = int.Parse(Console.ReadLine());
 
 
             //If statement for choosing the generate board
-            if (choice == 1)
+            if (menuChoice == 1)
             {
                 game.GenerateBoard();
 
             }
 
             //If statement for choosing the display board
-            else if (choice == 2)
+            else if (menuChoice == 2)
             {
                 game.DisplayBoard();
             }
 
             //
 
-            else if (choice == 3)
+            else if (menuChoice == 3)
             {
                 //
                 Console.WriteLine("Enter a file name: ");
@@ -58,14 +58,14 @@ class Program
             }
 
             //
-            else if (choice == 4)
+            else if (menuChoice == 4)
             {
                 Console.WriteLine("See you later!");
                 return;
             }
 
             //bonus choice to save the game
-            else if (choice == 5)
+            else if (menuChoice == 5)
             {
                 game.Save("Junk.txt");
             }
