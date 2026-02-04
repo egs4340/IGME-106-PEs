@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\LinkedLists.csproj",
-      "projectName": "LinkedLists",
-      "projectPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\LinkedLists.csproj",
+      "projectUniqueName": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\PE_StackQueues.csproj",
+      "projectName": "PE_StackQueues",
+      "projectPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\PE_StackQueues.csproj",
       "packagesPath": "D:\\Profiles\\egs4340\\.nuget\\packages\\",
-      "outputPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\LinkedLists\\LinkedLists\\obj\\",
+      "outputPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
