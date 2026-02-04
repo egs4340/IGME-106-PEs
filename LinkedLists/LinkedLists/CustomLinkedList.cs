@@ -56,7 +56,7 @@ namespace LinkedLists
             
         }
 
-        //method for the getdata. I couldn't find a way to make it work
+        //method for the getdata
         private T GetData(int index)
         {
             //gets the node first
@@ -72,13 +72,22 @@ namespace LinkedLists
             //else statement in case the code is invalid
             else
             {
-                throw new Exception("Invalid index. Index must be between 0 and 4");
+                throw new Exception("Invalid index. Index must be between 0 and " + (count-1).ToString());
             }
         }
 
         //added the add class to make is add to the count and the data
         public void Add(T data)
         {
+            //CustomLinkedNode<T> newNode = 
+            //newNode.Data = data;
+
+            ////if count is 0, then add it to the head
+            //if(count == 0)
+            //{
+            //    head = data;
+            //}
+            //otherwise, 
             for (int i = 0; i < count; i++)
             {
                 CustomLinkedNode<T> node = head;
