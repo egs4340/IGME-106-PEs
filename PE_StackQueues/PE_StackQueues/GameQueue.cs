@@ -43,7 +43,7 @@ namespace PE_StackQueues
 
             try
             {
-                return list[list.Count - 1];
+                return list[0];
             }
 
             catch (Exception e)
@@ -65,9 +65,9 @@ namespace PE_StackQueues
         {
             try
             {
-                T item = list[list.Count - 1];
+                T item = list[0];
 
-                list.RemoveAt(list.Count - 1);
+                list.RemoveAt(0);
 
                 return item;
             }

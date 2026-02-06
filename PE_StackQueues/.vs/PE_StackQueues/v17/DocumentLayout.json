@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\",
+  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_stackqueues\\pe_stackqueues\\gamequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|solutionrelative:pe_stackqueues\\gamequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_stackqueues\\pe_stackqueues\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|solutionrelative:pe_stackqueues\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_stackqueues\\pe_stackqueues\\gamestack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|solutionrelative:pe_stackqueues\\gamestack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_stackqueues\\pe_stackqueues\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_stackqueues\\pe_stackqueues\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|solutionrelative:pe_stackqueues\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_stackqueues\\pe_stackqueues\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_stackqueues\\pe_stackqueues\\gamequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|solutionrelative:pe_stackqueues\\gamequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_stackqueues\\pe_stackqueues\\gamestack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|solutionrelative:pe_stackqueues\\gamestack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_stackqueues\\pe_stackqueues\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|solutionrelative:pe_stackqueues\\iqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_stackqueues\\pe_stackqueues\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8C93960-4965-4FA6-941E-E51C528A390C}|PE_StackQueues\\PE_StackQueues.csproj|solutionrelative:pe_stackqueues\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,11 +38,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IQueue.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\IQueue.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\IQueue.cs",
               "RelativeDocumentMoniker": "PE_StackQueues\\IQueue.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\IQueue.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\IQueue.cs",
               "RelativeToolTip": "PE_StackQueues\\IQueue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,23 +53,24 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "IStack.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\IStack.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\IStack.cs",
               "RelativeDocumentMoniker": "PE_StackQueues\\IStack.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\IStack.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\IStack.cs",
               "RelativeToolTip": "PE_StackQueues\\IStack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T02:43:38.576Z"
+              "WhenOpened": "2026-02-06T02:43:38.576Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameQueue.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\GameQueue.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\GameQueue.cs",
               "RelativeDocumentMoniker": "PE_StackQueues\\GameQueue.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\GameQueue.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\GameQueue.cs",
               "RelativeToolTip": "PE_StackQueues\\GameQueue.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwEwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T16:43:46.074Z",
               "EditorCaption": ""
@@ -78,9 +79,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GameStack.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\GameStack.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\GameStack.cs",
               "RelativeDocumentMoniker": "PE_StackQueues\\GameStack.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\GameStack.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\GameStack.cs",
               "RelativeToolTip": "PE_StackQueues\\GameStack.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAowFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,15 +90,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\Program.cs",
               "RelativeDocumentMoniker": "PE_StackQueues\\Program.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_StackQueues\\PE_StackQueues\\Program.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_StackQueues\\PE_StackQueues\\Program.cs",
               "RelativeToolTip": "PE_StackQueues\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T16:30:28.179Z"
+              "WhenOpened": "2026-02-04T16:30:28.179Z",
+              "EditorCaption": ""
             }
           ]
         }

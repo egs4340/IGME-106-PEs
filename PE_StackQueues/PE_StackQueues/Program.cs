@@ -10,16 +10,16 @@ internal class Program
         GameStack<string> gs = new GameStack<string> ();
 
 
-        gs.Push("Mabel");
+        gs.Push("Matt");
         Console.WriteLine(gs.Peek());
 
-        gs.Push("Dipper");
+        gs.Push("Mark");
         Console.WriteLine(gs.Peek());
 
-        gs.Push("Stan");
+        gs.Push("Morris");
         Console.WriteLine(gs.Peek());
 
-        gs.Push("Soos");
+        gs.Push("Maven");
         Console.WriteLine(gs.Peek());
 
 
