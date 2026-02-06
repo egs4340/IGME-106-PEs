@@ -1,0 +1,15 @@
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\bin\Debug\net8.0\PE_StackQueues.exe
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\bin\Debug\net8.0\PE_StackQueues.deps.json
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\bin\Debug\net8.0\PE_StackQueues.runtimeconfig.json
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\bin\Debug\net8.0\PE_StackQueues.dll
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\bin\Debug\net8.0\PE_StackQueues.pdb
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\PE_StackQueues.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\PE_StackQueues.AssemblyInfoInputs.cache
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\PE_StackQueues.AssemblyInfo.cs
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\PE_StackQueues.csproj.CoreCompileInputs.cache
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\PE_StackQueues.sourcelink.json
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\PE_StackQueues.dll
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\refint\PE_StackQueues.dll
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\PE_StackQueues.pdb
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\PE_StackQueues.genruntimeconfig.cache
+C:\Users\evans\source\repos\IGME-106-PEs\PE_StackQueues\PE_StackQueues\obj\Debug\net8.0\ref\PE_StackQueues.dll

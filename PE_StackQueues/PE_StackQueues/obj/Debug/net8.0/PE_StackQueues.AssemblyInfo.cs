@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_StackQueues")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dad8d4755ee631bc1c139d447029f11e726d7f86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0636ed5c6c0276bbb105a70123b453e0d5bbca1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_StackQueues")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_StackQueues")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
