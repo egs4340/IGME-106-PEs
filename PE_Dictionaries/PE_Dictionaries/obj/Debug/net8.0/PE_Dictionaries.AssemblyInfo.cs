@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Dictionaries")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a586cdf7311fb8e2bd651912de8531625f1bd4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+301fa26004696d966996e8d56fb45cd715c0563e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Dictionaries")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Dictionaries")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

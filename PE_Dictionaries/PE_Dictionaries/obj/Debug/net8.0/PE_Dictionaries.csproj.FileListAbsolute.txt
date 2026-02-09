@@ -1,0 +1,15 @@
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\bin\Debug\net8.0\PE_Dictionaries.exe
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\bin\Debug\net8.0\PE_Dictionaries.deps.json
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\bin\Debug\net8.0\PE_Dictionaries.runtimeconfig.json
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\bin\Debug\net8.0\PE_Dictionaries.dll
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\bin\Debug\net8.0\PE_Dictionaries.pdb
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\PE_Dictionaries.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\PE_Dictionaries.AssemblyInfoInputs.cache
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\PE_Dictionaries.AssemblyInfo.cs
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\PE_Dictionaries.csproj.CoreCompileInputs.cache
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\PE_Dictionaries.sourcelink.json
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\PE_Dictionaries.dll
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\refint\PE_Dictionaries.dll
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\PE_Dictionaries.pdb
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\PE_Dictionaries.genruntimeconfig.cache
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Dictionaries\PE_Dictionaries\obj\Debug\net8.0\ref\PE_Dictionaries.dll

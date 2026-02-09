@@ -12,6 +12,12 @@ namespace PE_Dictionaries
         private int score;
         private string name;
 
+        Player()
+        {
+            score = 0;
+            name = null;
+        }
+
         //Parameterized constructor
         public Player(string name, int score)
         {
@@ -19,6 +25,12 @@ namespace PE_Dictionaries
             this.name = name;
         }
 
+
+        public override string ToString()
+        {
+            Console.WriteLine(this.name + "'s Score is: " + this.score);
+            return default;
+        }
 
     }
 }
