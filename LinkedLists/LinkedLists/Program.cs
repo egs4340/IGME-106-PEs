@@ -16,15 +16,15 @@ public class Program()
         linkList.Add(inputOne);
 
         //asks for the second input
-        Console.WriteLine("Enter item 4:");
+        Console.WriteLine("Enter item 2:");
         string inputTwo = Console.ReadLine();
         linkList.Add(inputTwo);
 
         //asks for the third item
-        Console.WriteLine("Enter number 3: ");
+        Console.WriteLine("Enter item 3: ");
         string inputThree = Console.ReadLine();
         linkList.Add(inputThree);
-        
+
         //asks for the fourth item
         Console.WriteLine("Enter item 4:");
         string inputFour = Console.ReadLine();
@@ -35,8 +35,8 @@ public class Program()
         string inputFive = Console.ReadLine();
         linkList.Add(inputFive);
 
+        linkList.PrintList();
 
-        Console.WriteLine(linkList);
         
     }
 }

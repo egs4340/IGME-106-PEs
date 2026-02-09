@@ -79,26 +79,31 @@ namespace LinkedLists
         //added the add class to make is add to the count and the data
         public void Add(T data)
         {
-            //CustomLinkedNode<T> newNode = 
-            //newNode.Data = data;
+            //created new node to add to the list
+            CustomLinkedNode<T> newNode = new CustomLinkedNode<T>(data);
+            newNode.Data = data;
 
-            ////if count is 0, then add it to the head
-            //if(count == 0)
-            //{
-            //    head = data;
-            //}
-            //otherwise, 
-            for (int i = 0; i < count; i++)
+            
+            //sets the head to new node
+            if (head == null)
             {
-                CustomLinkedNode<T> node = head;
-                node.Data = data;
-                head = node;
-                tail = node.Next;
+                head = newNode;
                 count++;
+                return;
             }
 
 
-            
+            CustomLinkedNode<T> node = head;
+
+            while (node.Next != null)
+            {
+                node = node.Next;
+            }
+
+            node.Next = newNode;
+
+
+            count++;
 
         }
 
@@ -149,5 +154,29 @@ namespace LinkedLists
             return this[index];
         }
 
+        //added the ability to print the list
+        public void PrintList()
+        {
+            if (count == 0)
+            {
+                Console.WriteLine("Empty List!");
+                return;
+            }
+
+            else
+            {
+                CustomLinkedNode<T> node = head;
+                
+                while (node != null)
+                {
+                    Console.Write(node.Data);
+                    Console.Write("->");
+                    node = node.Next;
+
+                }
+            }
+
+
+        }
     }
 }

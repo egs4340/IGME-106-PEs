@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafkoE_Proj2_DoubleLinkedList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bcea8d73f8fe258c5dd73ae686723d3920911e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da1ff2f86b59359432532924cc61c985c7f93bc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafkoE_Proj2_DoubleLinkedList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafkoE_Proj2_DoubleLinkedList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
