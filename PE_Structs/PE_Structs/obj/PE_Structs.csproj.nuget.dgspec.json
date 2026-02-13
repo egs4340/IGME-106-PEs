@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\PE_Dictionaries.csproj": {}
+    "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Structs\\PE_Structs\\PE_Structs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\PE_Dictionaries.csproj": {
+    "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Structs\\PE_Structs\\PE_Structs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\PE_Dictionaries.csproj",
-        "projectName": "PE_Dictionaries",
-        "projectPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\PE_Dictionaries.csproj",
+        "projectUniqueName": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Structs\\PE_Structs\\PE_Structs.csproj",
+        "projectName": "PE_Structs",
+        "projectPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Structs\\PE_Structs\\PE_Structs.csproj",
         "packagesPath": "C:\\Users\\evans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\obj\\",
+        "outputPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Structs\\PE_Structs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
