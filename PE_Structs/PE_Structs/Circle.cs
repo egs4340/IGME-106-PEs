@@ -9,7 +9,7 @@ namespace PE_Structs
     internal struct Circle
     {
         public double radius;
-        private Vector2 center = new Vector2();
+        private Vector2 center = new Vector2(0, 0);
         private double x;
         private double y;
 
@@ -35,17 +35,17 @@ namespace PE_Structs
         }
 
         //get set for the vector center
-        internal Vector2 Center
+        public Vector2 Center
         { 
             get { return center; } 
             set {  center = value; }
         }
 
         //parameterized constructor #1
-        public Circle(double radius, Vector2 center)
+        public Circle(double Radius, Vector2 Center)
         {
-            this.radius = radius;
-            this.center = center;
+            this.Radius = radius;
+            this.Center = center;
         }
 
         //Parameterized constructor #2

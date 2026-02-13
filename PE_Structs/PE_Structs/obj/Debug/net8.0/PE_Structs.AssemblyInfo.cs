@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Structs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaafbbb62f425f2671a68059fc16cf6f1d02a374")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e422418a8ed357585741622b13ff766ece8f512")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Structs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Structs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

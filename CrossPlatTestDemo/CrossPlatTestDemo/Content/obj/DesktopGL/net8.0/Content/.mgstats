@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/dog.png","D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/bin/DesktopGL/Content/dog.xnb","TextureProcessor","Texture2DContent",42637,137605,0.0658077
+"D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/WhiteBackground.jpg","D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/bin/DesktopGL/Content/WhiteBackground.xnb","TextureProcessor","Texture2DContent",16143,8632405,0.1113301
