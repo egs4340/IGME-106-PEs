@@ -71,6 +71,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
             else
             {
                 throw new Exception("Invalid index. Index must be between 0 and " + (count - 1).ToString());
+            
             }
         }
 
@@ -143,17 +144,39 @@ namespace SafkoE_Proj2_DoubleLinkedList
         //Added RemoveAt method, which should (HOPEFULLY) set the index to an empty value and make it nullified.
         public T RemoveAt(int index)
         {
-            if (index >= 0 && index < count)
+            if (index < 0 || index > count)
             {
-                index = int.Parse("");
-                count--;
+                throw new IndexOutOfRangeException("Index is out of range!");
+            }
+            //check if index is the head
+            T data;
+
+            if(index == 0)
+            {
+                data = head.Data;
+                head = head.Next;
+                head.Prev = null;
+                return data;
+            }
+            
+            CustomLinkedNode<T> node = head;
+
+            int pos = 0;
+
+            while (pos < index)
+            {
+                node = node.Next;
+                pos++;
             }
 
-            return this[index];
+            data = node.Data;
+            (node.Next).Prev = node.Prev;
+            (node.Prev).Next = node.Next;
+            return data;
         }
 
-        //added the ability to print the list
-        public void PrintList()
+        //added the ability to print the list forwards
+        public void PrintForward()
         {
             if (count == 0)
             {
@@ -167,10 +190,30 @@ namespace SafkoE_Proj2_DoubleLinkedList
 
                 while (node != null)
                 {
-                    Console.Write(node.Data);
-                    Console.Write("->");
+                    Console.WriteLine(node.Data);
                     node = node.Next;
 
+                }
+            }
+        }
+
+        //added the ability to print the list backwards
+        public void PrintBackwards()
+        {
+            if (count == 0)
+            {
+                Console.WriteLine("Empty List!");
+                return;
+            }
+
+            else
+            {
+                CustomLinkedNode<T> node = tail;
+
+                while (node != null)
+                {
+                    Console.WriteLine(node.Data);
+                    node = node.Prev;
                 }
             }
         }
