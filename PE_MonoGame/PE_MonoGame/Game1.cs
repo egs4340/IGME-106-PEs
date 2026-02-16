@@ -8,7 +8,10 @@ namespace PE_MonoGame
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        private Texture2D dog;
+        private Vector2 imagePosition;
+        private float xPosition = 50;
+        private float yPosition = 50;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -20,12 +23,18 @@ namespace PE_MonoGame
         {
             // TODO: Add your initialization logic here
 
+            //initializes a new vector for the image position
+            imagePosition = new Vector2(xPosition, yPosition);
+
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            //loads the dog texture
+            dog = Content.Load<Texture2D>("dog");
 
             // TODO: use this.Content to load your game content here
         }
@@ -36,17 +45,27 @@ namespace PE_MonoGame
                 Exit();
 
             // TODO: Add your update logic here
-
+            
+            imagePosition = new Vector2(xPosition++, yPosition);
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.AliceBlue);
 
+            _spriteBatch.Begin();
             // TODO: Add your drawing code here
 
+            //draws the dog
+            _spriteBatch.Draw(
+                dog,
+                imagePosition ,
+                Color.White);
+
+            _spriteBatch.End();
             base.Draw(gameTime);
+
         }
     }
 }
