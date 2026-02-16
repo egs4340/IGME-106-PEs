@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-
+using System;
 namespace CrossPlatTestDemo
 {
     public class Game1 : Game
@@ -14,6 +14,8 @@ namespace CrossPlatTestDemo
         private int screenWidth;
         private int screenHeight;
         private int xPosition;
+        private float radians;
+        private SpriteFont Arial;
 
         public Game1()
         {
@@ -29,6 +31,7 @@ namespace CrossPlatTestDemo
             screenWidth = _graphics.PreferredBackBufferWidth;
             screenHeight = _graphics.PreferredBackBufferHeight;
             base.Initialize();
+            radians = 1;
         }
 
         protected override void LoadContent()
@@ -37,6 +40,7 @@ namespace CrossPlatTestDemo
 
             dog = Content.Load<Texture2D>("dog");
             whitebox = Content.Load<Texture2D>("WhiteBackground");
+            Arial = Content.Load<SpriteFont>("Arial");
 
             // TODO: use this.Content to load your game content here
         }
@@ -50,8 +54,14 @@ namespace CrossPlatTestDemo
             xPosition += 3;
 
             if(xPosition > screenWidth)
-                xPosition = dog.Width;
+                xPosition = -dog.Width;
             // TODO: Add your update logic here
+
+            radians += 0.05f;
+            if(radians> 6.20f)
+            {
+                radians = 0;
+            }
 
             base.Update(gameTime);
         }
@@ -77,10 +87,28 @@ namespace CrossPlatTestDemo
 
 
             _spriteBatch.Draw(
-                whitebox,                             //Texture2D
+                whitebox,                                                                                         //Texture2D
                 new Rectangle(screenWidth/2, screenHeight/2, screenWidth/2, screenHeight/2),                      //Location upper left corner
-                Color.Blue);                          //color tint
+                Color.Blue);                                                                                      //color tint
 
+
+
+            _spriteBatch.Draw(
+                dog,
+                new Rectangle(0, 0, dog.Width, dog.Height),
+                null,
+                Color.Yellow,
+                radians,
+                new Vector2(dog.Width / 2, dog.Height / 2),
+                SpriteEffects.None,
+                1f
+                );
+
+            _spriteBatch.DrawString(
+                Arial,
+                Math.Round(radians, 1).ToString(),
+                new Vector2(0, 0),
+                Color.Aquamarine);
 
             _spriteBatch.End();
 

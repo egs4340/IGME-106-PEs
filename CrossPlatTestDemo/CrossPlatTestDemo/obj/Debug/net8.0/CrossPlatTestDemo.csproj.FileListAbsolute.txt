@@ -34,3 +34,6 @@ D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\CrossPlatTestDemo\CrossPlatTest
 D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\CrossPlatTestDemo\CrossPlatTestDemo\obj\Debug\net8.0\ref\CrossPlatTestDemo.dll
 D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\CrossPlatTestDemo\CrossPlatTestDemo\bin\Debug\net8.0\Content\dog.xnb
 D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\CrossPlatTestDemo\CrossPlatTestDemo\bin\Debug\net8.0\Content\WhiteBackground.xnb
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\CrossPlatTestDemo\CrossPlatTestDemo\bin\Debug\net8.0\Content\img1.xnb
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\CrossPlatTestDemo\CrossPlatTestDemo\bin\Debug\net8.0\Content\img2.xnb
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\CrossPlatTestDemo\CrossPlatTestDemo\bin\Debug\net8.0\Content\Arial.xnb

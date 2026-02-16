@@ -4,10 +4,16 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/Arial.spritefont</File>
     <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/dog.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/img1.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/img2.png</File>
     <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/WhiteBackground.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

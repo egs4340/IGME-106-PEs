@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/dog.png</SourceFile>
-  <SourceTime>2026-02-13T11:28:31.5013798-05:00</SourceTime>
+  <SourceTime>2026-02-13T11:30:24.8995214-05:00</SourceTime>
   <DestFile>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/bin/DesktopGL/dog.xnb</DestFile>
-  <DestTime>2026-02-13T11:28:46.9043119-05:00</DestTime>
+  <DestTime>2026-02-16T11:20:12.7948533-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-06-02T06:31:02-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

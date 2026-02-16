@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/Arial.spritefont</SourceFile>
+  <SourceTime>2025-06-02T06:42:50-04:00</SourceTime>
+  <DestFile>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/CrossPlatTestDemo/CrossPlatTestDemo/Content/bin/DesktopGL/Content/Arial.xnb</DestFile>
+  <DestTime>2026-02-16T11:28:27.5409053-05:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2025-06-02T06:31:02-04:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2025-06-02T06:31:02-04:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
