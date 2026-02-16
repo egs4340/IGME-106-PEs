@@ -11,7 +11,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
 
 
         //Integer for the count of the list
-        private int count;
+        public int Count;
 
 
         //makes a CustomLinkedNode named head
@@ -22,7 +22,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
         //Constructor for CustomLinkedList
         public CustomLinkedList()
         {
-            count = 0;
+            Count = 0;
             head = null;
             tail = null;
         }
@@ -33,7 +33,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
         {
 
             //checks if the index is out of range
-            if (index < 0 || index > count)
+            if (index < 0 || index > Count)
             {
                 Console.WriteLine("Index is out of range!");
                 return null;
@@ -61,7 +61,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
             CustomLinkedNode<T> node = GetNode(index);
 
             //checks if the index is in range, then gets the data
-            if (index >= 0 && index < count)
+            if (index >= 0 && index < Count)
             {
                 Console.WriteLine("The data is in " + index);
                 return node.Data;
@@ -70,7 +70,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
             //else statement in case the code is invalid
             else
             {
-                throw new Exception("Invalid index. Index must be between 0 and " + (count - 1).ToString());
+                throw new Exception("Invalid index. Index must be between 0 and " + (Count - 1).ToString());
             
             }
         }
@@ -87,7 +87,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
             if (head == null)
             {
                 head = newNode;
-                count++;
+                Count++;
                 return;
             }
 
@@ -102,7 +102,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
             node.Next = newNode;
 
 
-            count++;
+            Count++;
 
         }
 
@@ -112,7 +112,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
         {
             get
             {
-                if (index >= 0 && index < count)
+                if (index >= 0 && index < Count)
                 {
                     //gets the data at the index position if it's in a valid range
                     return GetData(index);
@@ -121,7 +121,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
                 string exceptionMessage;
 
                 //checks if the Linked List's count is 0
-                if (count == 0)
+                if (Count == 0)
                 {
                     //If count is zero, then there is no data in the list
                     exceptionMessage = "No data to retrieve, list is empty.";
@@ -134,7 +134,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
                     exceptionMessage = String.Format(
                         "Index {0} is out of range. Index must be between 0 and {1}",
                         index,
-                        count - 1);
+                        Count - 1);
                 }
                 //Catches anything that tries to put something in a negative position or larger than the size of the array
                 throw new IndexOutOfRangeException(exceptionMessage);
@@ -144,7 +144,7 @@ namespace SafkoE_Proj2_DoubleLinkedList
         //Added RemoveAt method, which should (HOPEFULLY) set the index to an empty value and make it nullified.
         public T RemoveAt(int index)
         {
-            if (index < 0 || index > count)
+            if (index < 0 || index > Count)
             {
                 throw new IndexOutOfRangeException("Index is out of range!");
             }
@@ -168,17 +168,101 @@ namespace SafkoE_Proj2_DoubleLinkedList
                 node = node.Next;
                 pos++;
             }
-
+            //sets the previous node to the new previous node and the next node to the new next node
             data = node.Data;
             (node.Next).Prev = node.Prev;
             (node.Prev).Next = node.Next;
             return data;
         }
 
+        //insertat method
+        public void Insert(T data, int index)
+        {
+            bool startAtHead = true;
+
+            if (index < 0 || index > Count)
+            {
+                throw new IndexOutOfRangeException("Not in index!");
+            }
+
+            //if the count minus the index is greater than half of the count, start at the head;
+            if (Count - index > Count / 2)
+            {
+
+            }
+
+            //else, start at the tail
+            else
+            {
+
+            }
+
+            //the node that gets inserted
+            CustomLinkedNode<T> node = new CustomLinkedNode<T>(data);
+            node.Data = data;
+
+            //if the index is no numbers, the node is everything in the index
+            if (index == 0)
+            {
+                head.Prev = node;
+                node.Next = head;
+                head = node;
+                tail = node;
+                Count++;
+                return;
+            }
+
+            //index = count, then insert at tail
+            if (index == Count)
+            {
+                node.Next = null;
+                node.Prev = tail;
+                tail.Next = node;
+                tail = node;
+                Count++;
+                return;
+            }
+
+            //new node for insertion
+            CustomLinkedNode<T> newNode = new CustomLinkedNode<T>(data);
+            int pos = 0;
+            newNode = head;
+
+            //if we start at the head, the node will move to the head
+            if (startAtHead == true)
+            {
+                while (pos < index - 1)
+                {
+                    node = node.Next;
+                    pos++;
+                }
+            }
+
+            //if we start at tail, the node will move to the tail
+            if (startAtHead == false)
+            {
+                pos = Count;
+                node = tail;
+                
+                while (pos > index)
+                {
+                    node = node.Prev;
+                    pos--;
+                }
+            }
+            //sets the new node to the current position of the node, sets that node to the previous positiion
+            newNode.Next = node.Next;
+            newNode.Prev = node;
+            node.Next.Prev = newNode;
+            node.Next = newNode;
+            Count++;
+
+        }
+
         //added the ability to print the list forwards
         public void PrintForward()
         {
-            if (count == 0)
+            if (Count == 0)
             {
                 Console.WriteLine("Empty List!");
                 return;
@@ -198,9 +282,9 @@ namespace SafkoE_Proj2_DoubleLinkedList
         }
 
         //added the ability to print the list backwards
-        public void PrintBackwards()
+        public void PrintBackward()
         {
-            if (count == 0)
+            if (Count == 0)
             {
                 Console.WriteLine("Empty List!");
                 return;
@@ -216,6 +300,14 @@ namespace SafkoE_Proj2_DoubleLinkedList
                     node = node.Prev;
                 }
             }
+        }
+
+        //public void for cleaing the list
+        public void Clear()
+        {
+            Count = 0;
+            head = null;
+            tail = null;
         }
 
 
