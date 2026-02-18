@@ -12,6 +12,9 @@ namespace PE_MonoGame
         private Vector2 imagePosition;
         private float xPosition = 50;
         private float yPosition = 50;
+        private Vector2 imagePosition2;
+        private float xPosition2 = 50;
+        private float yPosition2 = 50;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -25,6 +28,7 @@ namespace PE_MonoGame
 
             //initializes a new vector for the image position
             imagePosition = new Vector2(xPosition, yPosition);
+            imagePosition2 = new Vector2(xPosition2, yPosition2);
 
             base.Initialize();
         }
@@ -47,7 +51,9 @@ namespace PE_MonoGame
             // TODO: Add your update logic here
             
             imagePosition = new Vector2(xPosition++, yPosition);
+            MoveImage();
             base.Update(gameTime);
+
         }
 
         protected override void Draw(GameTime gameTime)
@@ -63,9 +69,50 @@ namespace PE_MonoGame
                 imagePosition ,
                 Color.White);
 
+
+
+            _spriteBatch.Draw(
+                dog,
+                imagePosition2,
+                Color.Green);
+
             _spriteBatch.End();
             base.Draw(gameTime);
 
         }
+
+        //move image method
+        protected void MoveImage()
+        {
+            //checks if the image is moving up
+            KeyboardState upState = Keyboard.GetState();
+            if (upState.IsKeyDown(Keys.W))
+            {
+                imagePosition2 = new Vector2(xPosition2, yPosition2--);
+            }
+
+            //checks if the image is moving down
+            KeyboardState downState = Keyboard.GetState();
+            if (downState.IsKeyDown(Keys.S))
+            {
+                imagePosition2 = new Vector2(xPosition2, yPosition2++);
+            }
+
+            //checks if the image is moving left
+            KeyboardState leftState = Keyboard.GetState();
+            if (leftState.IsKeyDown(Keys.A))
+            {
+                imagePosition2 = new Vector2(xPosition2--, yPosition2);
+            }
+
+            //checks if the image is moving right
+            KeyboardState rightState = Keyboard.GetState();
+            if (rightState.IsKeyDown(Keys.D))
+            {
+                imagePosition2 = new Vector2(xPosition2++, yPosition2);
+            }
+        }
+
+
     }
 }

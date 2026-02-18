@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CrossPlatTestDemo\\",
+  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CrossPlatTestDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6D57916-CFE9-4240-AA33-7B44B1E925C8}|CrossPlatTestDemo\\CrossPlatTestDemo.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\crossplattestdemo\\crossplattestdemo\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6D57916-CFE9-4240-AA33-7B44B1E925C8}|CrossPlatTestDemo\\CrossPlatTestDemo.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\crossplattestdemo\\crossplattestdemo\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6D57916-CFE9-4240-AA33-7B44B1E925C8}|CrossPlatTestDemo\\CrossPlatTestDemo.csproj|solutionrelative:crossplattestdemo\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D57916-CFE9-4240-AA33-7B44B1E925C8}|CrossPlatTestDemo\\CrossPlatTestDemo.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\crossplattestdemo\\crossplattestdemo\\content\\arial.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{C6D57916-CFE9-4240-AA33-7B44B1E925C8}|CrossPlatTestDemo\\CrossPlatTestDemo.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\crossplattestdemo\\crossplattestdemo\\content\\arial.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{C6D57916-CFE9-4240-AA33-7B44B1E925C8}|CrossPlatTestDemo\\CrossPlatTestDemo.csproj|solutionrelative:crossplattestdemo\\content\\arial.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -24,24 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Arial.spritefont",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CrossPlatTestDemo\\CrossPlatTestDemo\\Content\\Arial.spritefont",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CrossPlatTestDemo\\CrossPlatTestDemo\\Content\\Arial.spritefont",
               "RelativeDocumentMoniker": "CrossPlatTestDemo\\Content\\Arial.spritefont",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CrossPlatTestDemo\\CrossPlatTestDemo\\Content\\Arial.spritefont",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CrossPlatTestDemo\\CrossPlatTestDemo\\Content\\Arial.spritefont",
               "RelativeToolTip": "CrossPlatTestDemo\\Content\\Arial.spritefont",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-16T16:18:39.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T16:18:39.307Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CrossPlatTestDemo\\CrossPlatTestDemo\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CrossPlatTestDemo\\CrossPlatTestDemo\\Game1.cs",
               "RelativeDocumentMoniker": "CrossPlatTestDemo\\Game1.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CrossPlatTestDemo\\CrossPlatTestDemo\\Game1.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CrossPlatTestDemo\\CrossPlatTestDemo\\Game1.cs",
               "RelativeToolTip": "CrossPlatTestDemo\\Game1.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowGoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T16:00:45.229Z",
               "EditorCaption": ""

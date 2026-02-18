@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -29,7 +33,7 @@
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\PE_MonoGame\\Content\\dog.png",
               "RelativeToolTip": "PE_MonoGame\\Content\\dog.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-02-16T20:24:02.351Z",
+              "WhenOpened": "2026-02-18T03:50:39.564Z",
               "EditorCaption": ""
             },
             {
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "PE_MonoGame\\Game1.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\PE_MonoGame\\Game1.cs",
               "RelativeToolTip": "PE_MonoGame\\Game1.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDAAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswGEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T19:37:49.404Z",
               "EditorCaption": ""
