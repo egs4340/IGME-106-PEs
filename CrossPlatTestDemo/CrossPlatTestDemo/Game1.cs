@@ -10,12 +10,16 @@ namespace CrossPlatTestDemo
         private SpriteBatch _spriteBatch;
         private Texture2D dog;
         private Texture2D whitebox;
-
+        private Rectangle userControlledRect;
         private int screenWidth;
         private int screenHeight;
         private int xPosition;
         private float radians;
         private SpriteFont Arial;
+        private int Y;
+        private int X;
+
+
 
         public Game1()
         {
@@ -30,8 +34,11 @@ namespace CrossPlatTestDemo
 
             screenWidth = _graphics.PreferredBackBufferWidth;
             screenHeight = _graphics.PreferredBackBufferHeight;
+            userControlledRect.X = 0;
+            userControlledRect.Y = 0;
             base.Initialize();
             radians = 1;
+
         }
 
         protected override void LoadContent()
@@ -41,7 +48,7 @@ namespace CrossPlatTestDemo
             dog = Content.Load<Texture2D>("dog");
             whitebox = Content.Load<Texture2D>("WhiteBackground");
             Arial = Content.Load<SpriteFont>("Arial");
-
+            userControlledRect = new Rectangle(X, Y, 20, 20);
             // TODO: use this.Content to load your game content here
         }
 
@@ -91,7 +98,11 @@ namespace CrossPlatTestDemo
                 new Rectangle(screenWidth/2, screenHeight/2, screenWidth/2, screenHeight/2),                      //Location upper left corner
                 Color.Blue);                                                                                      //color tint
 
-
+            //Rectangle line = new Rectangle();
+            //if (vertical)
+            //{
+            //    line = new Rectangle(startingPosition, startingYPosition, 5, Math.Abs((endingPosition)));
+            //}
 
             _spriteBatch.Draw(
                 dog,
@@ -104,6 +115,13 @@ namespace CrossPlatTestDemo
                 1f
                 );
 
+            _spriteBatch.Draw(
+                dog,
+                userControlledRect,
+                Color.Black
+                );
+
+
             _spriteBatch.DrawString(
                 Arial,
                 Math.Round(radians, 1).ToString(),
@@ -114,6 +132,31 @@ namespace CrossPlatTestDemo
 
 
             base.Draw(gameTime);
+        }
+
+        public void MoveImage()
+        {
+
+            KeyboardState currentKBState = Keyboard.GetState();
+            if (currentKBState.IsKeyDown(Keys.W))
+            {
+                userControlledRect.Y -= 1;
+            }
+
+            if (currentKBState.IsKeyDown(Keys.S))
+            {
+                userControlledRect.Y += 1;
+            }
+
+            if (currentKBState.IsKeyDown(Keys.A))
+            {
+                userControlledRect.X -= 1;
+            }
+
+            if (currentKBState.IsKeyDown(Keys.D))
+            {
+                userControlledRect.X += 1;
+            }
         }
     }
 }

@@ -1,2 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/evans/source/repos/IGME-106-PEs/PE_MonoGame/PE_MonoGame/Content/dog.png","C:/Users/evans/source/repos/IGME-106-PEs/PE_MonoGame/PE_MonoGame/Content/bin/DesktopGL/Content/dog.xnb","TextureProcessor","Texture2DContent",272766,1000085,1.1224105
+"D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_MonoGame/PE_MonoGame/Content/Arial.spritefont","D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_MonoGame/PE_MonoGame/Content/bin/DesktopGL/Content/Arial.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21529,0.150274
+"D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_MonoGame/PE_MonoGame/Content/dog.png","D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_MonoGame/PE_MonoGame/Content/bin/DesktopGL/Content/dog.xnb","TextureProcessor","Texture2DContent",272766,1000085,0.0783973

@@ -4,9 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/evans/source/repos/IGME-106-PEs/PE_MonoGame/PE_MonoGame/Content/dog.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_MonoGame/PE_MonoGame/Content/Arial.spritefont</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_MonoGame/PE_MonoGame/Content/dog.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

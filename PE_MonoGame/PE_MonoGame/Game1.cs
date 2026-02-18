@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Microsoft.VisualBasic;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -8,13 +9,30 @@ namespace PE_MonoGame
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+        //adds our 'main' Texture2D
         private Texture2D dog;
+
+        //Added a Vector2 to set the image position for objects
         private Vector2 imagePosition;
+
+        //Floats for the image position
         private float xPosition = 50;
         private float yPosition = 50;
+
+        //Added a Vector2 for the second image position, for the moving object
         private Vector2 imagePosition2;
+        
+        //Floats for the second image position, used for the moving image
         private float xPosition2 = 50;
         private float yPosition2 = 50;
+        
+        //Added the SpriteFont
+        private SpriteFont Arial;
+
+        //added the button as a private field
+        private Button myButtonObject;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -24,11 +42,15 @@ namespace PE_MonoGame
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            //Added the new button Object
+            myButtonObject = new Button();
 
             //initializes a new vector for the image position
             imagePosition = new Vector2(xPosition, yPosition);
+
+            //initializes a new vector for the movable image's position
             imagePosition2 = new Vector2(xPosition2, yPosition2);
+
 
             base.Initialize();
         }
@@ -36,9 +58,9 @@ namespace PE_MonoGame
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
             //loads the dog texture
             dog = Content.Load<Texture2D>("dog");
+            Arial = Content.Load<SpriteFont>("Arial");
 
             // TODO: use this.Content to load your game content here
         }
@@ -49,7 +71,7 @@ namespace PE_MonoGame
                 Exit();
 
             // TODO: Add your update logic here
-            
+            //updates the imagePosition to make the image move
             imagePosition = new Vector2(xPosition++, yPosition);
             MoveImage();
             base.Update(gameTime);
@@ -70,11 +92,21 @@ namespace PE_MonoGame
                 Color.White);
 
 
-
+            //draws another dog (which can move from the player's input!)
             _spriteBatch.Draw(
                 dog,
                 imagePosition2,
                 Color.Green);
+
+            //Text WIP
+            _spriteBatch.DrawString(
+                Arial,
+                "This is Test Text",
+                new Vector2(0, 0),
+                Color.Aquamarine
+                );
+                
+            
 
             _spriteBatch.End();
             base.Draw(gameTime);

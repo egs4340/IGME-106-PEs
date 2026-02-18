@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrossPlatTestDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+507fa4910a47a2cc32773a3cf260d002243972cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4cbe1259844ec8980a41de6779e8090f3eeca29")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrossPlatTestDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrossPlatTestDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
