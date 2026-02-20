@@ -69,3 +69,5 @@ D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_MonoGame\PE_MonoGame\obj\Deb
 D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_MonoGame\PE_MonoGame\obj\Debug\net8.0\PE_MonoGame.pdb
 D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_MonoGame\PE_MonoGame\obj\Debug\net8.0\PE_MonoGame.genruntimeconfig.cache
 D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_MonoGame\PE_MonoGame\obj\Debug\net8.0\ref\PE_MonoGame.dll
+C:\Users\evans\source\repos\IGME-106-PEs\PE_MonoGame\PE_MonoGame\bin\Debug\net8.0\Content\Arial.xnb
+C:\Users\evans\source\repos\IGME-106-PEs\PE_MonoGame\PE_MonoGame\bin\Debug\net8.0\Content\Button.xnb

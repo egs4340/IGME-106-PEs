@@ -12,7 +12,7 @@ namespace PE_MonoGame
 
         //adds our 'main' Texture2D
         private Texture2D dog;
-
+        private Texture2D button;
         //Added a Vector2 to set the image position for objects
         private Vector2 imagePosition;
 
@@ -61,7 +61,7 @@ namespace PE_MonoGame
             //loads the dog texture
             dog = Content.Load<Texture2D>("dog");
             Arial = Content.Load<SpriteFont>("Arial");
-
+            button = Content.Load<Texture2D>("Button");
             // TODO: use this.Content to load your game content here
         }
 
@@ -104,6 +104,12 @@ namespace PE_MonoGame
                 "This is Test Text",
                 new Vector2(0, 0),
                 Color.Aquamarine
+                );
+
+            _spriteBatch.Draw(
+                button,
+                new Button(),
+                Color.Olive
                 );
                 
             

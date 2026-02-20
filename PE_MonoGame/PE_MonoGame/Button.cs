@@ -11,18 +11,16 @@ using Microsoft.Xna.Framework.Input;
 namespace PE_MonoGame
 {
     //added the public class Button with the ability to access the Game1 class
-    public class Button
+    public class Button : Game1
     {
         private int X;
         private int Y;
-        private Texture2D buttonTexture;
 
         //public constructor for the button
         public Button()
         {
             this.X = 0;
             this.Y = 0;
-            buttonTexture = Content.Load<Texture2D>(buttonTexture);
         }
 
         //added the ability to use the Game1 class' Update Method
@@ -36,7 +34,7 @@ namespace PE_MonoGame
         { 
             _spriteBatch.Begin();
             _spriteBatch.Draw(
-                buttonTexture,
+                dog,
                 new Rectangle(20, 0, 20, 10),
                 Color.Azure
                 );

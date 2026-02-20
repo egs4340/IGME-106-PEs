@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_MonoGame/PE_MonoGame/Content/Arial.spritefont</SourceFile>
-  <SourceTime>2025-06-02T06:42:50-04:00</SourceTime>
-  <DestFile>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_MonoGame/PE_MonoGame/Content/bin/DesktopGL/Content/Arial.xnb</DestFile>
-  <DestTime>2026-02-18T10:17:15.4512562-05:00</DestTime>
+  <SourceFile>C:/Users/evans/source/repos/IGME-106-PEs/PE_MonoGame/PE_MonoGame/Content/Arial.spritefont</SourceFile>
+  <SourceTime>2026-02-18T12:49:08.4804182-05:00</SourceTime>
+  <DestFile>C:/Users/evans/source/repos/IGME-106-PEs/PE_MonoGame/PE_MonoGame/Content/bin/DesktopGL/Content/Arial.xnb</DestFile>
+  <DestTime>2026-02-20T00:56:49.5148224-05:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2025-06-02T06:31:02-04:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

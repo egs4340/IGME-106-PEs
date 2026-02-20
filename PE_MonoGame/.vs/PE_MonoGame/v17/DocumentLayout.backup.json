@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_MonoGame\\",
+  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52F65D11-D954-448D-9677-3ACBADABD7B0}|PE_MonoGame\\PE_MonoGame.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_monogame\\pe_monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52F65D11-D954-448D-9677-3ACBADABD7B0}|PE_MonoGame\\PE_MonoGame.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_monogame\\pe_monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52F65D11-D954-448D-9677-3ACBADABD7B0}|PE_MonoGame\\PE_MonoGame.csproj|solutionrelative:pe_monogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52F65D11-D954-448D-9677-3ACBADABD7B0}|PE_MonoGame\\PE_MonoGame.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_monogame\\pe_monogame\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52F65D11-D954-448D-9677-3ACBADABD7B0}|PE_MonoGame\\PE_MonoGame.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_monogame\\pe_monogame\\content\\button.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{52F65D11-D954-448D-9677-3ACBADABD7B0}|PE_MonoGame\\PE_MonoGame.csproj|solutionrelative:pe_monogame\\content\\button.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F65D11-D954-448D-9677-3ACBADABD7B0}|PE_MonoGame\\PE_MonoGame.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_monogame\\pe_monogame\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52F65D11-D954-448D-9677-3ACBADABD7B0}|PE_MonoGame\\PE_MonoGame.csproj|solutionrelative:pe_monogame\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,25 +31,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Button.png",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\PE_MonoGame\\Content\\Button.png",
+              "RelativeDocumentMoniker": "PE_MonoGame\\Content\\Button.png",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\PE_MonoGame\\Content\\Button.png",
+              "RelativeToolTip": "PE_MonoGame\\Content\\Button.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-20T06:02:40.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Button.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_MonoGame\\PE_MonoGame\\Button.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\PE_MonoGame\\Button.cs",
               "RelativeDocumentMoniker": "PE_MonoGame\\Button.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_MonoGame\\PE_MonoGame\\Button.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\PE_MonoGame\\Button.cs",
               "RelativeToolTip": "PE_MonoGame\\Button.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T16:05:19.289Z",
+              "WhenOpened": "2026-02-20T05:57:33.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_MonoGame\\PE_MonoGame\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\PE_MonoGame\\Game1.cs",
               "RelativeDocumentMoniker": "PE_MonoGame\\Game1.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_MonoGame\\PE_MonoGame\\Game1.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_MonoGame\\PE_MonoGame\\Game1.cs",
               "RelativeToolTip": "PE_MonoGame\\Game1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwG4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T19:37:49.404Z",
               "EditorCaption": ""
