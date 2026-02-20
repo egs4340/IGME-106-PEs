@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\Safko_Practical1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C472BBA8-B63B-443E-A7A1-00A338665F05}|Safko_Practical1\\Safko_Practical1.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\safko_practical1\\safko_practical1\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C472BBA8-B63B-443E-A7A1-00A338665F05}|Safko_Practical1\\Safko_Practical1.csproj|solutionrelative:safko_practical1\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C472BBA8-B63B-443E-A7A1-00A338665F05}|Safko_Practical1\\Safko_Practical1.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\safko_practical1\\safko_practical1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C472BBA8-B63B-443E-A7A1-00A338665F05}|Safko_Practical1\\Safko_Practical1.csproj|solutionrelative:safko_practical1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C472BBA8-B63B-443E-A7A1-00A338665F05}|Safko_Practical1\\Safko_Practical1.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\safko_practical1\\safko_practical1\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C472BBA8-B63B-443E-A7A1-00A338665F05}|Safko_Practical1\\Safko_Practical1.csproj|solutionrelative:safko_practical1\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Browser.cs",
               "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\Safko_Practical1\\Safko_Practical1\\Browser.cs",
               "RelativeDocumentMoniker": "Safko_Practical1\\Browser.cs",
               "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\Safko_Practical1\\Safko_Practical1\\Browser.cs",
               "RelativeToolTip": "Safko_Practical1\\Browser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T16:20:43.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\Safko_Practical1\\Safko_Practical1\\Program.cs",
               "RelativeDocumentMoniker": "Safko_Practical1\\Program.cs",
               "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\Safko_Practical1\\Safko_Practical1\\Program.cs",
               "RelativeToolTip": "Safko_Practical1\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T16:18:30.327Z",
               "EditorCaption": ""

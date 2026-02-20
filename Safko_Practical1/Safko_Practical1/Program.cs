@@ -30,7 +30,7 @@ while (userOption != "EXIT")
         case "VISIT":
             Console.Write("Enter webpage to visit: ");
             string page = Console.ReadLine()!;
-    myBrowser.VisitNewPage(page);
+            myBrowser.VisitNewPage(page);
             break;
 
         // Move forward a page
@@ -59,9 +59,9 @@ while (userOption != "EXIT")
             break;
 
         // Amount of user actions
-        case "TOTAL":
-            Console.WriteLine($"User has made {myBrowser.UserActions} actions.");
-            break;
+        //case "TOTAL":
+        //    Console.WriteLine($"User has made {myBrowser.UserActions} actions.");
+        //    break;
 
         // "Close" the browser
         case "EXIT":
@@ -80,9 +80,10 @@ while (userOption != "EXIT")
         default:
             Console.WriteLine("Unrecognized input. Try again.");
             break;
-        
 
 
-    // Line break for next iteration
-    Console.WriteLine();
-        }
+
+            // Line break for next iteration
+            Console.WriteLine();
+    }
+}

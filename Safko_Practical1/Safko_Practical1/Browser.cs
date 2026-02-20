@@ -10,7 +10,7 @@ namespace Safko_Practical1
     {
         //data structure for the forwards activity. I made this a list that will eventually get the current webpage and the new webpage, the one we want to proceed towards, and move to it.
         List<string> dataForwards = new List<string>();
-        
+
         //data structure for the backwards activity. I made these lists that will eventually get the current webpage and add the next webpage (previous webpage) and move to it.
         List<string> dataBackwards = new List<string>();
 
@@ -25,10 +25,12 @@ namespace Safko_Practical1
         //added the method for visiting a new page
         public void VisitNewPage(string browser)
         {
-
+            dataForwards.Add("Initial Browser");
             dataForwards.Add(browser);
+            dataForwards.RemoveAt(0);
 
 
+            dataForwards.Add("Initial Browser");
             dataBackwards.Add(browser);
         }
 
@@ -36,7 +38,9 @@ namespace Safko_Practical1
         //method for moving forwards
         public void MoveForward()
         {
-
+            string currentBrowser = "Current Browser";
+            //currentBrowser = List<string> dataForwards(1);
+            return currentBrowser;
         }
 
         //method for moving backwards
@@ -45,7 +49,21 @@ namespace Safko_Practical1
 
         }
 
+        //method for printing the current page
+        public void PrintCurrentPage()
+        {
+            Console.WriteLine("The current page is: " + dataForwards);
+        }
 
+        public void PrintFullHistory()
+        {
+            Console.WriteLine("The full browsing history is: ");
+        }
+
+        public void ClearHistory()
+        {
+
+        }
 
     }
 }
