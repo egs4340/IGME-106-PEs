@@ -32,12 +32,12 @@ namespace PE_MonoGame
         //added the ability to use the Game1 class' Draw method
         public void Draw(SpriteBatch _spriteBatch)
         { 
-            _spriteBatch.Begin();
-            _spriteBatch.Draw(
-                dog,
-                new Rectangle(20, 0, 20, 10),
-                Color.Azure
-                );
+            //_spriteBatch.Begin();
+            //_spriteBatch.Draw(
+            //    dog,
+            //    new Rectangle(20, 0, 20, 10),
+            //    Color.Azure
+            //    );
         }
     }
 }

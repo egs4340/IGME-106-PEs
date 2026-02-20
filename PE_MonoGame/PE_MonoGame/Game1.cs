@@ -105,10 +105,10 @@ namespace PE_MonoGame
                 new Vector2(0, 0),
                 Color.Aquamarine
                 );
-
+            //trying to get the button to work
             _spriteBatch.Draw(
                 button,
-                new Button(),
+                new Vector2(20, 20),
                 Color.Olive
                 );
                 
