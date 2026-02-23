@@ -8,6 +8,7 @@ namespace SafkoE_Proj3_Dictionary
 {
     internal class CustomDictionary<K, V>
     {
+        CustomPair<K, V>[] Data;
 
     }
 }
