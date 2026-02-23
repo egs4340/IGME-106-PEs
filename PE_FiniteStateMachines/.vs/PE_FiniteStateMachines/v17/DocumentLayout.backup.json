@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_FiniteStateMachines\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{043E8208-ECEC-4D80-B152-B1E4305F78D8}|PE_FiniteStateMachines\\PE_FiniteStateMachines.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_finitestatemachines\\pe_finitestatemachines\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043E8208-ECEC-4D80-B152-B1E4305F78D8}|PE_FiniteStateMachines\\PE_FiniteStateMachines.csproj|solutionrelative:pe_finitestatemachines\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Game1.cs",
+              "RelativeDocumentMoniker": "PE_FiniteStateMachines\\Game1.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Game1.cs",
+              "RelativeToolTip": "PE_FiniteStateMachines\\Game1.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAuwL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:38:47.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
