@@ -15,12 +15,16 @@ namespace PE_MonoGame
     {
         private int X;
         private int Y;
+        private Texture2D HoveredTexture;
+        private Texture2D NonHoveredTexture;
 
         //public constructor for the button
         public Button()
         {
             this.X = 0;
             this.Y = 0;
+            HoveredTexture = Content.Load<Texture2D>("Button");
+            NonHoveredTexture = Content.Load<Texture2D>("Button");
         }
 
         //added the ability to use the Game1 class' Update Method
@@ -31,13 +35,24 @@ namespace PE_MonoGame
 
         //added the ability to use the Game1 class' Draw method
         public void Draw(SpriteBatch _spriteBatch)
-        { 
-            //_spriteBatch.Begin();
-            //_spriteBatch.Draw(
-            //    dog,
-            //    new Rectangle(20, 0, 20, 10),
-            //    Color.Azure
-            //    );
+        {
+            _spriteBatch.Begin();
+            _spriteBatch.Draw(
+                HoveredTexture,
+                new Rectangle(20, 0, 20, 10),
+                Color.Azure
+                );
+
+            _spriteBatch.Draw(
+                NonHoveredTexture,
+                new Rectangle(20, 0, 20, 10),
+                Color.Red
+                );
+
+            _spriteBatch.End();
         }
+
+
+
     }
 }
