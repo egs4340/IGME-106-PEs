@@ -10,5 +10,14 @@ namespace SafkoE_Proj3_Dictionary
     {
         public K Key;
         public V Value;
+
+        CustomPair(K key, V value)
+        {
+
+            this.Key = key;
+            this.Value = value;
+        }
+
+
     }
 }

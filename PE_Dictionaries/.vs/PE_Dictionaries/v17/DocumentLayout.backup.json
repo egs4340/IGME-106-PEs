@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Dictionaries\\",
+  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D2CE14A-8B33-43E2-AA02-A64D54B22C26}|PE_Dictionaries\\PE_Dictionaries.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_dictionaries\\pe_dictionaries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D2CE14A-8B33-43E2-AA02-A64D54B22C26}|PE_Dictionaries\\PE_Dictionaries.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_dictionaries\\pe_dictionaries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D2CE14A-8B33-43E2-AA02-A64D54B22C26}|PE_Dictionaries\\PE_Dictionaries.csproj|solutionrelative:pe_dictionaries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D2CE14A-8B33-43E2-AA02-A64D54B22C26}|PE_Dictionaries\\PE_Dictionaries.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_dictionaries\\pe_dictionaries\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D2CE14A-8B33-43E2-AA02-A64D54B22C26}|PE_Dictionaries\\PE_Dictionaries.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_dictionaries\\pe_dictionaries\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D2CE14A-8B33-43E2-AA02-A64D54B22C26}|PE_Dictionaries\\PE_Dictionaries.csproj|solutionrelative:pe_dictionaries\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Dictionaries\\PE_Dictionaries\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\Player.cs",
               "RelativeDocumentMoniker": "PE_Dictionaries\\Player.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Dictionaries\\PE_Dictionaries\\Player.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\Player.cs",
               "RelativeToolTip": "PE_Dictionaries\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwB8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T20:53:15.788Z",
               "EditorCaption": ""
@@ -41,11 +41,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Dictionaries\\PE_Dictionaries\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\Program.cs",
               "RelativeDocumentMoniker": "PE_Dictionaries\\Program.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Dictionaries\\PE_Dictionaries\\Program.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Dictionaries\\PE_Dictionaries\\Program.cs",
               "RelativeToolTip": "PE_Dictionaries\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T20:53:01.761Z",
               "EditorCaption": ""

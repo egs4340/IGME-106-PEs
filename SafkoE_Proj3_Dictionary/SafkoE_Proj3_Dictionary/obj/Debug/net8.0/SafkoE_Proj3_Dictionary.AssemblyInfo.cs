@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafkoE_Proj3_Dictionary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe7ae8ec51b0ee4c7ff87e07dfbe3f7596b8d883")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+997c1083ade6f06b9ccf4fd1d6ed864add85a025")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafkoE_Proj3_Dictionary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafkoE_Proj3_Dictionary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
