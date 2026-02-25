@@ -4,6 +4,14 @@ using Microsoft.Xna.Framework.Input;
 
 namespace PE_FiniteStateMachines
 {
+    public enum MarioState
+    {
+        FaceLeft,
+        FaceRight,
+        WalkLeft,
+        WalkRight
+    }
+
     public class Game1 : Game
     {
         // ************************************************
@@ -28,7 +36,8 @@ namespace PE_FiniteStateMachines
         private double fps;
         private double secondsPerFrame;
         private double timeCounter;
-
+        private MarioState marioState;
+        private SpriteFont Arial;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -51,7 +60,8 @@ namespace PE_FiniteStateMachines
             marioTexture = Content.Load<Texture2D>("MarioSpriteSheet");
             numSpritesInSheet = 4;
             widthOfSingleSprite = marioTexture.Width / numSpritesInSheet;
-
+            //new spritefont for 'Arial' text
+            Arial = Content.Load<SpriteFont>("Arial");
             // Start Mario at (200, 200) in the game window
             marioPosition = new Vector2(200, 200);
 
@@ -74,6 +84,12 @@ namespace PE_FiniteStateMachines
             // *** to properly change mario's state and make him move!
             // ********************************************************
 
+            //Made Keyboard state to check if mario is walking in a direction or not
+            KeyboardState kb = Keyboard.GetState();
+
+            //checks to see the current mario state and updates the animation accordingly
+            
+
             // Always update Mario's animation
             UpdateAnimation(gameTime);
 
@@ -95,13 +111,57 @@ namespace PE_FiniteStateMachines
             // *** Put code here to check your Finite State Machine
             // *** and properly draw mario based on his state
 
+            KeyboardState kb = Keyboard.GetState();
+
+            //sets the mario state to face left automatically
+            marioState = MarioState.FaceLeft;
+
+            //checks if the A key is down to draw mario walking Left and standing Left
+            if (kb.IsKeyDown(Keys.A) && kb.IsKeyUp(Keys.D))
+            {
+                marioState = MarioState.WalkLeft;
+
+                //changes mario's sprite and state to have him standing left
+                if (kb.IsKeyUp(Keys.D))
+                {
+                    marioState = MarioState.FaceLeft;
+                }
+            }
+
+            //checks if the key is down to draw mario walking right and standing right
+            if (kb.IsKeyDown(Keys.D) && kb.IsKeyUp(Keys.A))
+            {
+                marioState = MarioState.WalkRight;
+
+                //changes mario's sprite and state to have him standing right
+                if (kb.IsKeyUp(Keys.D))
+                {
+                    marioState = MarioState.FaceRight;
+                }
+            }
+
+            //draws mario facing to the left
+            if (marioState == MarioState.FaceLeft)
+            {
+                DrawMarioStanding(SpriteEffects.FlipHorizontally);
+            }
+
+            //Makes the text that displays the current Mario State
+
+            _spriteBatch.DrawString(
+                Arial,
+                marioState.ToString(),
+                new Vector2(0, 0),
+                Color.White
+                );
 
             // *** EXAMPLE HELPER METHOD CALLS:
             // *** Call these to draw mario in different ways:
-            DrawMarioWalking(SpriteEffects.FlipHorizontally);
             //DrawMarioWalking(SpriteEffects.FlipHorizontally);
             //DrawMarioStanding(SpriteEffects.None);
             // ********************************************************
+
+
 
             _spriteBatch.End();
 
@@ -117,18 +177,28 @@ namespace PE_FiniteStateMachines
             // ElapsedGameTime is the duration of the last GAME frame
             timeCounter += gameTime.ElapsedGameTime.TotalSeconds;
 
-            // Time to go to the next animation frame
-            if (timeCounter >= secondsPerFrame)
+            //added the ability to make Mario stand still if no keys are being pressed
+            KeyboardState kb = Keyboard.GetState();
+            if (kb.IsKeyDown(Keys.None))
             {
-                // Change the active animation frame
-                mariosCurrentFrame++;
-                if (mariosCurrentFrame >= 4)
+                mariosCurrentFrame = 0;
+            }
+            //checks if the keys are down to make the other animations play
+            if (kb.IsKeyDown(Keys.A) || kb.IsKeyDown(Keys.D))
+            {
+                // Time to go to the next animation frame
+                if (timeCounter >= secondsPerFrame)
                 {
-                    mariosCurrentFrame = 1;
-                }
+                    // Change the active animation frame
+                    mariosCurrentFrame++;
+                    if (mariosCurrentFrame >= 4)
+                    {
+                        mariosCurrentFrame = 1;
+                    }
 
-                // Reset the time counter
-                timeCounter -= secondsPerFrame;
+                    // Reset the time counter
+                    timeCounter -= secondsPerFrame;
+                }
             }
         }
 
@@ -159,6 +229,7 @@ namespace PE_FiniteStateMachines
                 1.0f,                                           // Scale
                 flip,                                           // Flip it horizontally or vertically?    
                 0.0f);                                          // Layer depth
+            
         }
 
         /// <summary>
@@ -187,6 +258,9 @@ namespace PE_FiniteStateMachines
                 1.0f,                                           // Scale
                 flip,                                           // Flip it horizontally or vertically?    
                 0.0f);                                          // Layer depth
+            
         }
+
+
     }
 }

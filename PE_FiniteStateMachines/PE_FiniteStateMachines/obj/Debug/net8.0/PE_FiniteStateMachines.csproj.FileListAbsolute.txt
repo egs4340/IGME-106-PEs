@@ -33,3 +33,4 @@ C:\Users\evans\source\repos\IGME-106-PEs\PE_FiniteStateMachines\PE_FiniteStateMa
 C:\Users\evans\source\repos\IGME-106-PEs\PE_FiniteStateMachines\PE_FiniteStateMachines\obj\Debug\net8.0\PE_FiniteStateMachines.pdb
 C:\Users\evans\source\repos\IGME-106-PEs\PE_FiniteStateMachines\PE_FiniteStateMachines\obj\Debug\net8.0\PE_FiniteStateMachines.genruntimeconfig.cache
 C:\Users\evans\source\repos\IGME-106-PEs\PE_FiniteStateMachines\PE_FiniteStateMachines\obj\Debug\net8.0\ref\PE_FiniteStateMachines.dll
+C:\Users\evans\source\repos\IGME-106-PEs\PE_FiniteStateMachines\PE_FiniteStateMachines\bin\Debug\net8.0\Content\Arial.xnb
