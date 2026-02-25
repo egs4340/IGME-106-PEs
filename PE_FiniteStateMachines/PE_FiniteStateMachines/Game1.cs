@@ -88,7 +88,17 @@ namespace PE_FiniteStateMachines
             KeyboardState kb = Keyboard.GetState();
 
             //checks to see the current mario state and updates the animation accordingly
+            switch (marioState)
+            {
+                case:
+                    if(marioState == MarioState.WalkLeft)
+                    {
+
+                    }
+                    break;
             
+            }
+
 
             // Always update Mario's animation
             UpdateAnimation(gameTime);
