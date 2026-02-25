@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_FiniteStateMachines")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b20886936a2eb7f1113dd12ebf401dcb93e5cf1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+738a8072850dda6c076255798266b021a8a01344")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_FiniteStateMachines")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_FiniteStateMachines")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

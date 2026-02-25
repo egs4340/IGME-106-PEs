@@ -114,36 +114,54 @@ namespace PE_FiniteStateMachines
             KeyboardState kb = Keyboard.GetState();
 
             //sets the mario state to face left automatically
-            marioState = MarioState.FaceLeft;
 
-            //checks if the A key is down to draw mario walking Left and standing Left
+            //checks if the A key is down to set mario walking Left
             if (kb.IsKeyDown(Keys.A) && kb.IsKeyUp(Keys.D))
             {
                 marioState = MarioState.WalkLeft;
-
-                //changes mario's sprite and state to have him standing left
-                if (kb.IsKeyUp(Keys.D))
-                {
-                    marioState = MarioState.FaceLeft;
-                }
             }
 
-            //checks if the key is down to draw mario walking right and standing right
+            //changes mario's state to have him standing left
+            if (marioState == MarioState.WalkLeft && kb.IsKeyUp(Keys.A))
+            {
+                marioState = MarioState.FaceLeft;
+            }
+
+            //checks if the key is down to set mario walking right
             if (kb.IsKeyDown(Keys.D) && kb.IsKeyUp(Keys.A))
             {
                 marioState = MarioState.WalkRight;
-
-                //changes mario's sprite and state to have him standing right
-                if (kb.IsKeyUp(Keys.D))
-                {
-                    marioState = MarioState.FaceRight;
-                }
             }
+
+            //changes mario's state to have him standing left
+            if (marioState == MarioState.WalkRight && kb.IsKeyUp(Keys.D))
+            {
+                marioState = MarioState.FaceRight;
+            }
+
 
             //draws mario facing to the left
             if (marioState == MarioState.FaceLeft)
             {
                 DrawMarioStanding(SpriteEffects.FlipHorizontally);
+            }
+
+            //draws mario facing to the Right
+            if (marioState == MarioState.FaceRight)
+            {
+                DrawMarioStanding(SpriteEffects.None);
+            }
+
+            //draws mario walking to the left
+            if (marioState == MarioState.WalkLeft)
+            {
+                DrawMarioWalking(SpriteEffects.FlipHorizontally);
+            }
+
+            //draws mario walking to the right
+            if (marioState == MarioState.WalkRight)
+            {
+                DrawMarioWalking(SpriteEffects.None);
             }
 
             //Makes the text that displays the current Mario State

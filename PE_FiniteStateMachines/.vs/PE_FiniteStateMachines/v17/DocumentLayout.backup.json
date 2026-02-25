@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_FiniteStateMachines\\",
+  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_FiniteStateMachines\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{043E8208-ECEC-4D80-B152-B1E4305F78D8}|PE_FiniteStateMachines\\PE_FiniteStateMachines.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_finitestatemachines\\pe_finitestatemachines\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{043E8208-ECEC-4D80-B152-B1E4305F78D8}|PE_FiniteStateMachines\\PE_FiniteStateMachines.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_finitestatemachines\\pe_finitestatemachines\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{043E8208-ECEC-4D80-B152-B1E4305F78D8}|PE_FiniteStateMachines\\PE_FiniteStateMachines.csproj|solutionrelative:pe_finitestatemachines\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{043E8208-ECEC-4D80-B152-B1E4305F78D8}|PE_FiniteStateMachines\\PE_FiniteStateMachines.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_finitestatemachines\\pe_finitestatemachines\\content\\mariospritesheet.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "AbsoluteMoniker": "D:0:0:{043E8208-ECEC-4D80-B152-B1E4305F78D8}|PE_FiniteStateMachines\\PE_FiniteStateMachines.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_finitestatemachines\\pe_finitestatemachines\\content\\mariospritesheet.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{043E8208-ECEC-4D80-B152-B1E4305F78D8}|PE_FiniteStateMachines\\PE_FiniteStateMachines.csproj|solutionrelative:pe_finitestatemachines\\content\\mariospritesheet.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
@@ -28,23 +28,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MarioSpriteSheet.png",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Content\\MarioSpriteSheet.png",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Content\\MarioSpriteSheet.png",
               "RelativeDocumentMoniker": "PE_FiniteStateMachines\\Content\\MarioSpriteSheet.png",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Content\\MarioSpriteSheet.png",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Content\\MarioSpriteSheet.png",
               "RelativeToolTip": "PE_FiniteStateMachines\\Content\\MarioSpriteSheet.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-02-25T14:04:58.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T14:04:58.436Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Game1.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Game1.cs",
               "RelativeDocumentMoniker": "PE_FiniteStateMachines\\Game1.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Game1.cs*",
-              "RelativeToolTip": "PE_FiniteStateMachines\\Game1.cs*",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAnwFoAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_FiniteStateMachines\\PE_FiniteStateMachines\\Game1.cs",
+              "RelativeToolTip": "PE_FiniteStateMachines\\Game1.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAADgv48AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T16:38:47.978Z",
               "EditorCaption": ""
