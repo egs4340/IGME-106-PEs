@@ -98,7 +98,7 @@ namespace PE_FiniteStateMachines
 
             // *** EXAMPLE HELPER METHOD CALLS:
             // *** Call these to draw mario in different ways:
-            DrawMarioWalking(SpriteEffects.FlipVertically);
+            DrawMarioWalking(SpriteEffects.FlipHorizontally);
             //DrawMarioWalking(SpriteEffects.FlipHorizontally);
             //DrawMarioStanding(SpriteEffects.None);
             // ********************************************************
