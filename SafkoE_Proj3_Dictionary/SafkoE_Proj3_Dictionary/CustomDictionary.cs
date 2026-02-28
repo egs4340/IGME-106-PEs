@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,9 +9,16 @@ namespace SafkoE_Proj3_Dictionary
 {
     internal class CustomDictionary<K, V>
     {
-        CustomPair<K, V>[] Data;
+        //test for the custom pair array
 
+        //private CustomPair<K, V>[] Data = new CustomPair<K, V>[10];
+        //CustomPair<K, V>[] Data;
+        
+        public CustomPair<K, V>[] data;
 
+        public CustomPair<K, V>[] count;
+
+        //CustomDictionary<string, string>
 
 
         //contains key method

@@ -8,12 +8,14 @@ namespace SafkoE_Proj3_Dictionary
 {
     internal class CustomPair<K, V>
     {
-        public K Key;
-        public V Value;
+        //class parts
+        private K Key;
+        private V Value;
 
+
+        //constructor
         CustomPair(K key, V value)
         {
-
             this.Key = key;
             this.Value = value;
         }

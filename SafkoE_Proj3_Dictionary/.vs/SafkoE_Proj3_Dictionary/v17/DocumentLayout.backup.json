@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\SafkoE_Proj3_Dictionary\\",
+  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj3_Dictionary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\safkoe_proj3_dictionary\\safkoe_proj3_dictionary\\customdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_proj3_dictionary\\safkoe_proj3_dictionary\\customdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|solutionrelative:safkoe_proj3_dictionary\\customdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\safkoe_proj3_dictionary\\safkoe_proj3_dictionary\\custompair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_proj3_dictionary\\safkoe_proj3_dictionary\\custompair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|solutionrelative:safkoe_proj3_dictionary\\custompair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\safkoe_proj3_dictionary\\safkoe_proj3_dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_proj3_dictionary\\safkoe_proj3_dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{220C75C9-1609-4E2C-91C3-3BC1A3EB40F1}|SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary.csproj|solutionrelative:safkoe_proj3_dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CustomDictionary.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
               "RelativeDocumentMoniker": "SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
               "RelativeToolTip": "SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T15:09:32.755Z",
               "EditorCaption": ""
@@ -45,25 +45,27 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CustomPair.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomPair.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomPair.cs",
               "RelativeDocumentMoniker": "SafkoE_Proj3_Dictionary\\CustomPair.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomPair.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomPair.cs",
               "RelativeToolTip": "SafkoE_Proj3_Dictionary\\CustomPair.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T15:08:18.619Z"
+              "WhenOpened": "2026-02-18T15:08:18.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\Program.cs",
               "RelativeDocumentMoniker": "SafkoE_Proj3_Dictionary\\Program.cs",
-              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\Program.cs",
+              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\Program.cs",
               "RelativeToolTip": "SafkoE_Proj3_Dictionary\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T15:05:11.295Z"
+              "WhenOpened": "2026-02-18T15:05:11.295Z",
+              "EditorCaption": ""
             }
           ]
         }
