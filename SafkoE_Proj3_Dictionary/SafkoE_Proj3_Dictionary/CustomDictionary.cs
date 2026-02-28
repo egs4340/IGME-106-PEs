@@ -13,12 +13,36 @@ namespace SafkoE_Proj3_Dictionary
 
         //private CustomPair<K, V>[] Data = new CustomPair<K, V>[10];
         //CustomPair<K, V>[] Data;
-        
-        public CustomPair<K, V>[] data;
-
-        public CustomPair<K, V>[] count;
-
         //CustomDictionary<string, string>
+
+        private int Count;
+
+        private string LoadFactor;
+
+        //test for the indexer
+        private V[] v = new V[0];
+        public V this[int i]
+        { 
+            get { return v[i]; }
+            set { v[i] = value; }
+        }
+
+            
+        //test for the data
+        public CustomDictionary<K, V>[] data
+        {
+            get { return data; }
+            set { data = value; }   
+        }
+
+        //test for the count
+        public CustomDictionary<K, V>[] count
+        {
+            get { return count; }
+            set { count = CustomPair<K, V>[].Length(); }
+        }
+
+
 
 
         //contains key method

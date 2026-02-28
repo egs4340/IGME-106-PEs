@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj3_Dictionary\\SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
               "RelativeToolTip": "SafkoE_Proj3_Dictionary\\CustomDictionary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T15:09:32.755Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "SafkoE_Proj3_Dictionary\\CustomPair.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T15:08:18.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T15:08:18.619Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "SafkoE_Proj3_Dictionary\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T15:05:11.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T15:05:11.295Z"
             }
           ]
         }
