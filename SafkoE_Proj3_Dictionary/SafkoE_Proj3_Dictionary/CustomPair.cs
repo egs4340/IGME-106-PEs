@@ -14,7 +14,7 @@ namespace SafkoE_Proj3_Dictionary
 
 
         //constructor
-        CustomPair(K key, V value)
+        public CustomPair(K key, V value)
         {
             this.Key = key;
             this.Value = value;

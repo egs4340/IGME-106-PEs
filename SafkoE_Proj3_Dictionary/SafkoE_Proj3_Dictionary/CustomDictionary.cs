@@ -15,9 +15,11 @@ namespace SafkoE_Proj3_Dictionary
         //CustomPair<K, V>[] Data;
         //CustomDictionary<string, string>
 
-        private int Count;
+        private int count;
 
-        private string LoadFactor;
+        public double LoadFactor;
+
+        private List<CustomPair<K, V>>[] Data;
 
         //test for the indexer
         private V[] v = new V[0];
@@ -27,27 +29,23 @@ namespace SafkoE_Proj3_Dictionary
             set { v[i] = value; }
         }
 
-            
+
         //test for the data
-        public CustomDictionary<K, V>[] data
-        {
-            get { return data; }
-            set { data = value; }   
-        }
+        public CustomPair<K, V>[] data;
 
         //test for the count
-        public CustomDictionary<K, V>[] count
+        public int Count
         {
             get { return count; }
-            set { count = CustomPair<K, V>[].Length(); }
         }
 
 
 
 
         //contains key method
-        public void ContainsKey(K key)
+        public bool ContainsKey(K key)
         {
+
             if (key.Equals(key.GetHashCode()))
             { return; }
         }
