@@ -79,7 +79,10 @@ namespace CollisionDetection
             // ************************************************************************************
 
 
-
+            public void IntersectsWith()
+            {
+                
+            }
 
             /// <summary>
             /// Draws this SquareEntity to the game window.

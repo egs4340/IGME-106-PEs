@@ -33,7 +33,9 @@ namespace CollisionDetection
         // Window size information
         private int windowWidth;
         private int windowHeight;
-
+        
+        //added a string for when the square is moving
+        private string squareMovement;
 
         public Game1()
         {
@@ -139,8 +141,71 @@ namespace CollisionDetection
             // ************************************************************************************
             // TODO: Move the square using WASD and the circle using the mouse location
             // ************************************************************************************
+            
+
+            //If statements for changing the square movement to which key if being pressed down
+            
+            if (Keyboard.GetState().IsKeyDown(Keys.D))
+            {
+                squareMovement = "Right";
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.A))
+            {
+                squareMovement = "Left";
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.S))
+            {
+                squareMovement = "Down";
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.W))
+            {
+                squareMovement = "Up";
+            }
+            //if (Keyboard.GetState().IsKeyDown(Keys.None))
+            //{
+            //    squareMovement = "Still";
+            //}
+
+            //Switch statement to move the square
+            switch (squareMovement)
+                    
+                    {
+                    case "Left":
+                        playerSquare.X--;
+                        if (Keyboard.GetState().IsKeyUp(Keys.A))
+                        {
+                            playerSquare.X = playerSquare.X; 
+                        }
+                    break;
+                    
+
+                    case "Right":
+                        playerSquare.X++;
+                        if (Keyboard.GetState().IsKeyUp(Keys.D))
+                        {
+                            playerSquare.X = playerSquare.X;
+                        }
+                    break;
 
 
+                    case "Down":
+                        playerSquare.Y++;
+                        if (Keyboard.GetState().IsKeyUp(Keys.S))
+                        {
+                            playerSquare.Y = playerSquare.Y;
+                        }
+                    break;
+
+
+                    case "Up":
+                        playerSquare.Y--;
+                        if (Keyboard.GetState().IsKeyUp(Keys.W))
+                        {
+                            playerSquare.Y = playerSquare.Y;
+                        }
+                    break;
+                    }
+            
             base.Update(gameTime);
         }
 

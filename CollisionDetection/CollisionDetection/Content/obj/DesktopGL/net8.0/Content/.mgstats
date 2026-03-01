@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/evans/source/repos/IGME-106-PEs/CollisionDetection/CollisionDetection/Content/circle.png","C:/Users/evans/source/repos/IGME-106-PEs/CollisionDetection/CollisionDetection/Content/bin/DesktopGL/Content/circle.xnb","TextureProcessor","Texture2DContent",8807,1000085,1.0570718
+"C:/Users/evans/source/repos/IGME-106-PEs/CollisionDetection/CollisionDetection/Content/square.png","C:/Users/evans/source/repos/IGME-106-PEs/CollisionDetection/CollisionDetection/Content/bin/DesktopGL/Content/square.xnb","TextureProcessor","Texture2DContent",1448,10085,0.0025984
