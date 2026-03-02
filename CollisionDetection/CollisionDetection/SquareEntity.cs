@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Diagnostics;
 
 namespace CollisionDetection
 {
@@ -77,12 +78,30 @@ namespace CollisionDetection
             // ************************************************************************************
             // TODO: Write the IntersectsWith method
             // ************************************************************************************
-
-
-            public void IntersectsWith()
+           
+            
+            public bool IntersectsWith(SquareEntity otherSquare)
             {
-                
+                if (this.SquareRect.Left > otherSquare.SquareRect.Right && this.SquareRect.Right < otherSquare.SquareRect.Left
+                || this.SquareRect.Bottom < otherSquare.SquareRect.Top && this.SquareRect.Top > otherSquare.SquareRect.Bottom)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
+
+            public bool AABBCollision(SquareEntity squareEntity)
+            {
+                var ToTheRightOf = this.SquareRect.Left > squareEntity.SquareRect.Right;
+                var ToTheLeftOf = this.SquareRect.Right < squareEntity.SquareRect.Left;
+                var AboveOf = this.SquareRect.Bottom < squareEntity.SquareRect.Top;
+                var BelowOf = this.SquareRect.Top > squareEntity.SquareRect.Bottom;
+                return !(ToTheRightOf || ToTheLeftOf || AboveOf || BelowOf);
+            }
+
 
             /// <summary>
             /// Draws this SquareEntity to the game window.
@@ -98,7 +117,7 @@ namespace CollisionDetection
                 // This is helpful while debugging!
                 // ************************************************************************************
 
-
+                
             }
         }
 

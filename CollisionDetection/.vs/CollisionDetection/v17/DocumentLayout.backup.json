@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CollisionDetection\\",
+  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CollisionDetection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\collisiondetection\\collisiondetection\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|solutionrelative:collisiondetection\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\collisiondetection\\collisiondetection\\squareentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\collisiondetection\\collisiondetection\\squareentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|solutionrelative:collisiondetection\\squareentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\collisiondetection\\collisiondetection\\circleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\collisiondetection\\collisiondetection\\circleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|solutionrelative:collisiondetection\\circleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\collisiondetection\\collisiondetection\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B19DFD-5480-4999-A336-0CC155A7D8C2}|CollisionDetection\\CollisionDetection.csproj|solutionrelative:collisiondetection\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CollisionDetection\\CollisionDetection\\Game1.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CollisionDetection\\CollisionDetection\\Game1.cs",
               "RelativeDocumentMoniker": "CollisionDetection\\Game1.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CollisionDetection\\CollisionDetection\\Game1.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CollisionDetection\\CollisionDetection\\Game1.cs",
               "RelativeToolTip": "CollisionDetection\\Game1.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAgwKoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAABoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T16:32:32.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CircleEntity.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CollisionDetection\\CollisionDetection\\CircleEntity.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CollisionDetection\\CollisionDetection\\CircleEntity.cs",
               "RelativeDocumentMoniker": "CollisionDetection\\CircleEntity.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CollisionDetection\\CollisionDetection\\CircleEntity.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CollisionDetection\\CollisionDetection\\CircleEntity.cs",
               "RelativeToolTip": "CollisionDetection\\CircleEntity.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAswAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwE0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T16:32:55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SquareEntity.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CollisionDetection\\CollisionDetection\\SquareEntity.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CollisionDetection\\CollisionDetection\\SquareEntity.cs",
               "RelativeDocumentMoniker": "CollisionDetection\\SquareEntity.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\CollisionDetection\\CollisionDetection\\SquareEntity.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\CollisionDetection\\CollisionDetection\\SquareEntity.cs",
               "RelativeToolTip": "CollisionDetection\\SquareEntity.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAowHcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T16:31:54.64Z",
               "EditorCaption": ""

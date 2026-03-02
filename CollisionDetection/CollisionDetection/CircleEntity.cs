@@ -75,13 +75,19 @@ namespace CollisionDetection
         // TODO: Write the IntersectsWith method to implement circle-circle collision detection
         // ************************************************************************************
 
-
+        public bool IntersectsWith()
+        {
+            return false;
+        }
 
         // ************************************************************************************
         // TODO: Write the IntersectsWith overload to implement circle-rectangle collision detection
         // ************************************************************************************
 
-
+        public bool IntersectsWith(SquareEntity squareEntity)
+        {
+            return false;
+        }
 
         /// <summary>
         /// Draws this CircleEntity to the game window.
@@ -113,11 +119,8 @@ namespace CollisionDetection
             // TODO: Use the correct coordinates, width, and height to represent this circle's rectangular bounds.
             // (0, 0, 0, 0) is a placeholder. These are NOT the correct values.
             // ************************************************************************************
-            Rectangle circleRect = new Rectangle(
-                0,
-                0,
-                0,
-                0);
+
+            Rectangle circleRect = new Rectangle((int)center.X, (int)center.Y, 50, 50);
 
 
 

@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 
 namespace CollisionDetection
 {
@@ -33,7 +34,7 @@ namespace CollisionDetection
         // Window size information
         private int windowWidth;
         private int windowHeight;
-        
+
         //added a string for when the square is moving
         private string squareMovement;
 
@@ -141,10 +142,10 @@ namespace CollisionDetection
             // ************************************************************************************
             // TODO: Move the square using WASD and the circle using the mouse location
             // ************************************************************************************
-            
+
 
             //If statements for changing the square movement to which key if being pressed down
-            
+
             if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
                 squareMovement = "Right";
@@ -168,44 +169,44 @@ namespace CollisionDetection
 
             //Switch statement to move the square
             switch (squareMovement)
-                    
+
+            {
+                case "Left":
+                    playerSquare.X--;
+                    if (Keyboard.GetState().IsKeyUp(Keys.A))
                     {
-                    case "Left":
-                        playerSquare.X--;
-                        if (Keyboard.GetState().IsKeyUp(Keys.A))
-                        {
-                            playerSquare.X = playerSquare.X; 
-                        }
-                    break;
-                    
-
-                    case "Right":
-                        playerSquare.X++;
-                        if (Keyboard.GetState().IsKeyUp(Keys.D))
-                        {
-                            playerSquare.X = playerSquare.X;
-                        }
-                    break;
-
-
-                    case "Down":
-                        playerSquare.Y++;
-                        if (Keyboard.GetState().IsKeyUp(Keys.S))
-                        {
-                            playerSquare.Y = playerSquare.Y;
-                        }
-                    break;
-
-
-                    case "Up":
-                        playerSquare.Y--;
-                        if (Keyboard.GetState().IsKeyUp(Keys.W))
-                        {
-                            playerSquare.Y = playerSquare.Y;
-                        }
-                    break;
+                        playerSquare.X = playerSquare.X;
                     }
-            
+                    break;
+
+
+                case "Right":
+                    playerSquare.X++;
+                    if (Keyboard.GetState().IsKeyUp(Keys.D))
+                    {
+                        playerSquare.X = playerSquare.X;
+                    }
+                    break;
+
+
+                case "Down":
+                    playerSquare.Y++;
+                    if (Keyboard.GetState().IsKeyUp(Keys.S))
+                    {
+                        playerSquare.Y = playerSquare.Y;
+                    }
+                    break;
+
+
+                case "Up":
+                    playerSquare.Y--;
+                    if (Keyboard.GetState().IsKeyUp(Keys.W))
+                    {
+                        playerSquare.Y = playerSquare.Y;
+                    }
+                    break;
+            }
+
             base.Update(gameTime);
         }
 
@@ -231,6 +232,11 @@ namespace CollisionDetection
             //   types, add extra variables, etc.  There's no single way to do this!
             // You may alter the code below in ANY way you need to!!!
             // ************************************************************************************
+
+
+            
+
+
             for (int i = 0; i < squareList.Count; i++)
             {
                 squareList[i].Draw(_spriteBatch, Color.White);
@@ -244,7 +250,39 @@ namespace CollisionDetection
             playerSquare.Draw(_spriteBatch, Color.Yellow);
             playerCircle.Draw(_spriteBatch, Color.Yellow);
 
-            _spriteBatch.End();
+
+
+            bool squareOverlap = playerSquare.IntersectsWith(playerSquare);
+
+            bool squareAABBOverlap = playerSquare.AABBCollision(playerSquare);
+
+            bool circleOverlap = playerCircle.IntersectsWith(playerSquare);
+
+            if (squareOverlap)
+            {
+                _spriteBatch.Draw(squareTexture, playerSquare.SquareRect, Color.White);
+            }
+            else
+            {
+                _spriteBatch.Draw(squareTexture, playerSquare.SquareRect, Color.DarkGoldenrod);
+            }
+
+
+
+            if (squareAABBOverlap)
+            {
+                _spriteBatch.Draw(squareTexture, playerSquare.SquareRect, Color.White);
+            }
+
+            else
+            {
+                _spriteBatch.Draw(squareTexture, playerSquare.SquareRect, Color.DarkGoldenrod);
+            }
+
+
+
+
+                _spriteBatch.End();
 
             base.Draw(gameTime);
         }
