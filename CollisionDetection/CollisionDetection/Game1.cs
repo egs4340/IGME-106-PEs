@@ -252,20 +252,20 @@ namespace CollisionDetection
 
 
 
-            bool squareOverlap = playerSquare.IntersectsWith(playerSquare);
+            //bool squareOverlap = playerSquare.IntersectsWith(squareList[1]);
 
-            bool squareAABBOverlap = playerSquare.AABBCollision(playerSquare);
+            bool squareAABBOverlap = playerSquare.AABBCollision(squareList[1]);
 
             bool circleOverlap = playerCircle.IntersectsWith(playerSquare);
 
-            if (squareOverlap)
-            {
-                _spriteBatch.Draw(squareTexture, playerSquare.SquareRect, Color.White);
-            }
-            else
-            {
-                _spriteBatch.Draw(squareTexture, playerSquare.SquareRect, Color.DarkGoldenrod);
-            }
+            //if (squareOverlap)
+            //{
+            //    _spriteBatch.Draw(squareTexture, playerSquare.SquareRect, Color.White);
+            //}
+            //else
+            //{
+            //    _spriteBatch.Draw(squareTexture, playerSquare.SquareRect, Color.DarkGoldenrod);
+            //}
 
 
 

@@ -117,7 +117,7 @@ namespace CollisionDetection
                 // This is helpful while debugging!
                 // ************************************************************************************
 
-                
+                DebugLib.DrawRectOutline(sb, squareRect, 2, Color.DarkRed);
             }
         }
 
