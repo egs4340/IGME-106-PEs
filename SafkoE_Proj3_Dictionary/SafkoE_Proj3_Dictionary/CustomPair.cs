@@ -9,17 +9,20 @@ namespace SafkoE_Proj3_Dictionary
     internal class CustomPair<K, V>
     {
         //class parts
-        private K Key;
-        private V Value;
+        public K Key;
+        public V Value;
 
 
         //constructor
         public CustomPair(K key, V value)
         {
-            this.Key = key;
-            this.Value = value;
+            Key = key;
+            Value = value;
         }
 
-
+        public int GetHash()
+        {
+            return Key.GetHashCode();
+        }
     }
 }

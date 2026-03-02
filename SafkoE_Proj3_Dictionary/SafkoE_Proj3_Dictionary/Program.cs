@@ -1,4 +1,6 @@
 ﻿
+using SafkoE_Proj3_Dictionary;
+
 internal class Program
 {
 
