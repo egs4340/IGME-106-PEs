@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TileDictionary/PE_TileDictionary/Content/level1.csv","D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_TileDictionary\PE_TileDictionary\Content\bin\DesktopGL\Content\level1.csv","CopyItem","File",766,766,0.0082122
+"D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TileDictionary/PE_TileDictionary/Content/roguelikeSheet_transparent.png","D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TileDictionary/PE_TileDictionary/Content/bin/DesktopGL/Content/roguelikeSheet_transparent.xnb","TextureProcessor","Texture2DContent",94579,2036757,0.1604083
