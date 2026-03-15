@@ -21,6 +21,7 @@ namespace SafkoE_Project4
             // TODO: Add your initialization logic here
 
             base.Initialize();
+            Player player = new Player();
         }
 
         protected override void LoadContent()

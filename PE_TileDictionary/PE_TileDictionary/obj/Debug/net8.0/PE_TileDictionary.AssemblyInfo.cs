@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_TileDictionary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04875b81195c42e51282d6e1333f2ff4721401f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18e26b69f17218fceb97b62aba143f0b33e7c469")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_TileDictionary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_TileDictionary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
