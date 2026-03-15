@@ -3,24 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 
 namespace SafkoE_Project4
 {
-    internal class Collectible
+    internal class Collectible : GameObject
     {
 
 
-
+        //collectible constructor
         public Collectible() { }
 
 
 
+        //void update method
+        public override void Update(GameTime gt)
+        {
 
+        }
 
-        //public override void Update(GameTime);
+        //void check collision method
+        public void CheckCollision(GameObject gameObject)
+        {
 
+        }
 
-
-        //public void CheckCollision(GameObject);
     }
 }
