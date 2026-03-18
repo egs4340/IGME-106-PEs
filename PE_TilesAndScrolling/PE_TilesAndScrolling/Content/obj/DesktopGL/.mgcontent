@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/farm_large_crops.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/farm_large_empty.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/farm_small_crops.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/farm_small_empty.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/grass_1.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/grass_2.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/player_sprite_sheet.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/player.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_chop_1.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_chop_2.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_chop_3.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_chop_4.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_round_1.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_round_2.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_round_3.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_round_4.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_xmas_1.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_xmas_2.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_xmas_3.png</File>
+    <File>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/tree_xmas_4.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
