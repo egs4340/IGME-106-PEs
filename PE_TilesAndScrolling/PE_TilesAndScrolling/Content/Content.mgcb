@@ -109,6 +109,9 @@
 /processorParam:TextureFormat=Color
 /build:player.png
 
+#begin TileSet.txt
+/copy:TileSet.txt
+
 #begin tree_chop_1.png
 /importer:TextureImporter
 /processor:TextureProcessor

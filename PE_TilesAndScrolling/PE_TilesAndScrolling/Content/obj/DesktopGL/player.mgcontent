@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/player.png</SourceFile>
-  <SourceTime>2026-03-18T11:19:24.5858045-04:00</SourceTime>
-  <DestFile>D:/Profiles/egs4340/Documents/GitHub/IGME-106-PE/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/bin/DesktopGL/player.xnb</DestFile>
-  <DestTime>2026-03-18T11:21:48.2866389-04:00</DestTime>
+  <SourceFile>C:/Users/evans/source/repos/IGME-106-PEs/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/player.png</SourceFile>
+  <SourceTime>2026-03-18T15:06:04.2479189-04:00</SourceTime>
+  <DestFile>C:/Users/evans/source/repos/IGME-106-PEs/PE_TilesAndScrolling/PE_TilesAndScrolling/Content/bin/DesktopGL/player.xnb</DestFile>
+  <DestTime>2026-03-22T18:07:49.1514571-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-06-02T06:31:02-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
