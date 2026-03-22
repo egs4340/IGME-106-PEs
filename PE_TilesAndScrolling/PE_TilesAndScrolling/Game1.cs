@@ -42,7 +42,7 @@ namespace PE_TilesAndScrolling
             tree = Content.Load<Texture2D>("tree_round_2");
             pineTree = Content.Load<Texture2D>("tree_xmas_3");
 
-            
+            //try catch block for the stream reader to get the tile layout
             try
             {
                 StreamReader reader = new StreamReader("Content/TileSet.txt");

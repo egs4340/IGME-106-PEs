@@ -1,13 +1,24 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 
 namespace SafkoE_Project4
 {
+    public enum GameState
+    {
+        Menu,
+        Game,
+        GameOver
+    }
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private Player player;
+        private List<Collectible> collectList;
+        private int currentLvl = 0;
+        private double timer;
 
         public Game1()
         {
@@ -39,23 +50,37 @@ namespace SafkoE_Project4
             // FINITE STATE MACHINE GOES HERE!
             //3 States to switch between: Menu, Game, and Game Over
 
-
-            //private void ResetGame()
-
-
-            //private bool SingleKeyPress(Keys key, KeyboardState currentState, KeyboardState previousState)
-            //This method receives a parameter representing the key to check. Is this the first frame that key was
-            //pressed? Is the key down in the current keyboard state and up in the previous keyboard state?
-            //Return true if so and false otherwise.
-
-
-
-            //private void Nextlevel()
-
-
-
-
             base.Update(gameTime);
+        }
+        private void ResetGame()
+        {
+
+        }
+
+
+        //This method receives a parameter representing the key to check. Is this the first frame that key was
+        //pressed? Is the key down in the current keyboard state and up in the previous keyboard state?
+        //Return true if so and false otherwise.
+        private bool SingleKeyPress(Keys key, KeyboardState currentState, KeyboardState previousState)
+        {
+
+        }
+        
+
+
+
+        private void Nextlevel()
+        {
+            if (currentLvl == 0)
+            {
+                currentLvl++;
+            }
+
+            if (currentLvl == 1)
+            {
+                currentLvl++;
+            }
+
         }
 
         protected override void Draw(GameTime gameTime)

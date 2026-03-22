@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_TilesAndScrolling")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36d39b3cef820500e058a7f56047ed6aabda4e35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e575102ad56a88edfaf3efd1e4bc14c42a642a1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_TilesAndScrolling")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_TilesAndScrolling")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
