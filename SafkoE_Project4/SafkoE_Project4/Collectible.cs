@@ -24,8 +24,10 @@ namespace SafkoE_Project4
         //void update method
         public override void Update(GameTime gt)
         {
-            //if (this.Collectible.Intersects())
-                //{  return; }
+            if (this.Intersects() == true)
+            {
+                return;
+            }
         }
 
         //boolean method for checking collision

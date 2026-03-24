@@ -14,10 +14,10 @@ namespace SafkoE_Project4
 {
     internal class Player : GameObject
     {
-        int levelScore;
-        int totalScore;
-        int windowWidth = 200;
-        int windowHeight = 100;
+        internal int levelScore;
+        internal int totalScore;
+        internal int windowWidth = 200;
+        internal int windowHeight = 100;
         private Texture2D texture;
 
         //player constructor
@@ -28,16 +28,38 @@ namespace SafkoE_Project4
             levelScore = 0;
         }
 
-        //method for updating
+        //method for updating, includes the player's movement
         public override void Update(GameTime gt)
         {
-            
+            KeyboardState kbState = Keyboard.GetState();
+
+            if (kbState.IsKeyDown(Keys.A))
+            {
+                //pos.X -= 1;
+            }
+
+            if (kbState.IsKeyDown(Keys.D))
+            {
+                //pos.X += 1;
+            }
+
+            if (kbState.IsKeyDown(Keys.S))
+            {
+                //pos.Y += 1;
+            }
+
+            if (kbState.IsKeyDown(Keys.W))
+            {
+                //pos.Y -= 1;
+            }
+
         }
 
         //method for resetting the player's location to the center of the window
         public void Center()
         {
 
+            //this.pos =  windowWidth, windowHeight;
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafkoE_Project4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18e26b69f17218fceb97b62aba143f0b33e7c469")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39502122fe83e7415045b525e503e898b4628e54")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafkoE_Project4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafkoE_Project4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

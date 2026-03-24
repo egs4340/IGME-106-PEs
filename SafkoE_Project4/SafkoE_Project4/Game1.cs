@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Collections.Generic;
 
 namespace SafkoE_Project4
@@ -16,7 +17,10 @@ namespace SafkoE_Project4
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private Player player;
+        private Texture2D playerTexture;
         private List<Collectible> collectList;
+        private Texture2D collectableTexture;
+        private SpriteFont Arial;
         private int currentLvl = 0;
         private double timer;
 
@@ -33,12 +37,15 @@ namespace SafkoE_Project4
 
             base.Initialize();
             Player player = new Player();
+            //collectList.Add(new Collectible);
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            playerTexture = Content.Load<Texture2D>("character_green_idle");
+            collectableTexture = Content.Load<Texture2D>("coin_gold");
+            Arial = Content.Load<SpriteFont>("Arial");
             // TODO: use this.Content to load your game content here
         }
 
@@ -50,8 +57,12 @@ namespace SafkoE_Project4
             // FINITE STATE MACHINE GOES HERE!
             //3 States to switch between: Menu, Game, and Game Over
 
+            
+
             base.Update(gameTime);
         }
+
+        //code that resets the game
         private void ResetGame()
         {
 
@@ -63,17 +74,19 @@ namespace SafkoE_Project4
         //Return true if so and false otherwise.
         private bool SingleKeyPress(Keys key, KeyboardState currentState, KeyboardState previousState)
         {
-
+            return false;
         }
         
 
 
-
+        //method that changes to the next level
         private void Nextlevel()
         {
             if (currentLvl == 0)
             {
+
                 currentLvl++;
+                return;
             }
 
             if (currentLvl == 1)
