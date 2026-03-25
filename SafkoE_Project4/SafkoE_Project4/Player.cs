@@ -20,12 +20,14 @@ namespace SafkoE_Project4
         internal int windowHeight = 100;
         private Texture2D texture;
 
+
         //player constructor
         public Player()
         {
-           texture = Content.Load<Texture2D>("character_green_idle");
-            totalScore = 0;
-            levelScore = 0;
+           totalScore = 0;
+           levelScore = 0;
+           position.X = windowWidth/2;
+           position.Y = windowHeight/2;
         }
 
         //method for updating, includes the player's movement
@@ -35,31 +37,38 @@ namespace SafkoE_Project4
 
             if (kbState.IsKeyDown(Keys.A))
             {
-                //pos.X -= 1;
+                position.X -= 1;
             }
 
             if (kbState.IsKeyDown(Keys.D))
             {
-                //pos.X += 1;
+                position.X += 1;
             }
 
             if (kbState.IsKeyDown(Keys.S))
             {
-                //pos.Y += 1;
+                position.Y += 1;
             }
 
             if (kbState.IsKeyDown(Keys.W))
             {
-                //pos.Y -= 1;
+                position.Y -= 1;
             }
+
+
 
         }
 
         //method for resetting the player's location to the center of the window
         public void Center()
         {
+            position.X = windowWidth / 2;
+            position.Y = windowHeight/2;
+        }
 
-            //this.pos =  windowWidth, windowHeight;
+        public void Draw(SpriteBatch sb)
+        {
+            sb.Draw(texture, new Vector2(2, 2), Microsoft.Xna.Framework.Color.Green);
         }
     }
 }

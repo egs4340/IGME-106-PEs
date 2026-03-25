@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{242683B6-5688-46A6-8041-9F8C513C5574}|SafkoE_Project4\\SafkoE_Project4.csproj|solutionrelative:safkoe_project4\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{242683B6-5688-46A6-8041-9F8C513C5574}|SafkoE_Project4\\SafkoE_Project4.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_project4\\safkoe_project4\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{242683B6-5688-46A6-8041-9F8C513C5574}|SafkoE_Project4\\SafkoE_Project4.csproj|solutionrelative:safkoe_project4\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{242683B6-5688-46A6-8041-9F8C513C5574}|SafkoE_Project4\\SafkoE_Project4.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_project4\\safkoe_project4\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{242683B6-5688-46A6-8041-9F8C513C5574}|SafkoE_Project4\\SafkoE_Project4.csproj|solutionrelative:safkoe_project4\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242683B6-5688-46A6-8041-9F8C513C5574}|SafkoE_Project4\\SafkoE_Project4.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_project4\\safkoe_project4\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242683B6-5688-46A6-8041-9F8C513C5574}|SafkoE_Project4\\SafkoE_Project4.csproj|solutionrelative:safkoe_project4\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{242683B6-5688-46A6-8041-9F8C513C5574}|SafkoE_Project4\\SafkoE_Project4.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_project4\\safkoe_project4\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "SafkoE_Project4\\Game1.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Project4\\SafkoE_Project4\\Game1.cs",
               "RelativeToolTip": "SafkoE_Project4\\Game1.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAgwC8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowIkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T16:43:58.58Z",
               "EditorCaption": ""
@@ -53,33 +53,33 @@
               "RelativeDocumentMoniker": "SafkoE_Project4\\Collectible.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Project4\\SafkoE_Project4\\Collectible.cs",
               "RelativeToolTip": "SafkoE_Project4\\Collectible.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T16:44:30.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Project4\\SafkoE_Project4\\Player.cs",
               "RelativeDocumentMoniker": "SafkoE_Project4\\Player.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Project4\\SafkoE_Project4\\Player.cs",
               "RelativeToolTip": "SafkoE_Project4\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T16:44:14.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Project4\\SafkoE_Project4\\GameObject.cs",
               "RelativeDocumentMoniker": "SafkoE_Project4\\GameObject.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Project4\\SafkoE_Project4\\GameObject.cs",
               "RelativeToolTip": "SafkoE_Project4\\GameObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T16:43:52.98Z",
               "EditorCaption": ""

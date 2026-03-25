@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/evans/source/repos/IGME-106-PEs/SafkoE_Project4/SafkoE_Project4/Content/Arial.spritefont","C:/Users/evans/source/repos/IGME-106-PEs/SafkoE_Project4/SafkoE_Project4/Content/bin/DesktopGL/Content/Arial.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21529,1.2902164
+"C:/Users/evans/source/repos/IGME-106-PEs/SafkoE_Project4/SafkoE_Project4/Content/character_green_idle.png","C:/Users/evans/source/repos/IGME-106-PEs/SafkoE_Project4/SafkoE_Project4/Content/bin/DesktopGL/Content/character_green_idle.xnb","TextureProcessor","Texture2DContent",6122,262229,0.0511906
+"C:/Users/evans/source/repos/IGME-106-PEs/SafkoE_Project4/SafkoE_Project4/Content/coin_gold.png","C:/Users/evans/source/repos/IGME-106-PEs/SafkoE_Project4/SafkoE_Project4/Content/bin/DesktopGL/Content/coin_gold.xnb","TextureProcessor","Texture2DContent",2164,65621,0.0062736

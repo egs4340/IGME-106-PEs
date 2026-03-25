@@ -23,6 +23,7 @@ namespace SafkoE_Project4
         private SpriteFont Arial;
         private int currentLvl = 0;
         private double timer;
+        private GameState currentGameState;
 
         public Game1()
         {
@@ -37,26 +38,50 @@ namespace SafkoE_Project4
 
             base.Initialize();
             Player player = new Player();
-            //collectList.Add(new Collectible);
+            collectList = new List<Collectible>();
+            currentGameState = GameState.Menu;
+            
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+         //added textures
             playerTexture = Content.Load<Texture2D>("character_green_idle");
             collectableTexture = Content.Load<Texture2D>("coin_gold");
             Arial = Content.Load<SpriteFont>("Arial");
             // TODO: use this.Content to load your game content here
+
         }
 
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
+            
+            KeyboardState kbState = Keyboard.GetState();
+
+
+            //sets game to the game state
+            if (kbState.IsKeyDown(Keys.Space))
+            {
+                GraphicsDevice.Clear(Color.BlanchedAlmond);
+                currentGameState = GameState.Game;
+                Nextlevel();
+            }
+
+            //sets game back to menu
+
+            if (kbState.IsKeyDown(Keys.M))
+            {
+                GraphicsDevice.Clear(Color.CornflowerBlue);
+                currentGameState = GameState.Menu;
+            }
 
             // FINITE STATE MACHINE GOES HERE!
             //3 States to switch between: Menu, Game, and Game Over
 
+            
             
 
             base.Update(gameTime);
@@ -65,7 +90,8 @@ namespace SafkoE_Project4
         //code that resets the game
         private void ResetGame()
         {
-
+            collectList.Clear();
+            player.levelScore = 0;
         }
 
 
@@ -92,6 +118,7 @@ namespace SafkoE_Project4
             if (currentLvl == 1)
             {
                 currentLvl++;
+                player.Center();
             }
 
         }
@@ -100,9 +127,28 @@ namespace SafkoE_Project4
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            _spriteBatch.Begin();
+
+            //if it's the menu, draw the instructions text
+            if (currentGameState == GameState.Menu)
+            {
+                _spriteBatch.DrawString(
+                    Arial,
+                    "Press Space to Begin!",
+                    new Vector2(50, 0),
+                    Color.Black);
+            }
+
+            if (currentGameState == GameState.Game)
+            {
+                player.Draw(gameTime);
+            }
+
+
+            _spriteBatch.End();
 
             base.Draw(gameTime);
+
         }
     }
 }
