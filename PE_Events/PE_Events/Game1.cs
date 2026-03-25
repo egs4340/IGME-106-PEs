@@ -1,0 +1,173 @@
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+
+namespace PE_Events
+{
+    public class Game1 : Game
+    {
+        // *********************************************************
+        // TODO: A D D    Y O U R    N A M E    H E R E
+        // TODO: P U T    T H E    D A T E    H E R E
+        // *********************************************************
+        // PE:  Button Class for Events and Delegates
+        // Project starter code written by Erika Mesh/Erin Cascioli
+
+
+
+
+        // Fields created by the MG template
+        private GraphicsDeviceManager _graphics;
+        private SpriteBatch _spriteBatch;
+
+        // The list of buttons along with setup for setting a random background color
+        private SpriteFont font;
+        private List<Button> buttons;
+        private Color bgColor;
+        private Random rng;
+
+        // ********************************************************************
+        // TODO: Add any new fields you need here!
+        // ********************************************************************
+
+
+
+        public Game1()
+        {
+            _graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
+            IsMouseVisible = true;
+        }
+
+
+        protected override void Initialize()
+        {
+            // Initialize objects
+            buttons = new List<Button>();
+            bgColor = Color.DimGray;
+            rng = new Random();
+
+            // ****************************************************************
+            // TODO: Initialize any new fields you need here!
+            // ****************************************************************
+
+            base.Initialize();
+        }
+
+
+        protected override void LoadContent()
+        {
+            _spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            // Load in the button's font
+            font = Content.Load<SpriteFont>("buttonFont");
+
+            // Create 3 200 x 100 buttons down the left side of game window
+            Button changeBackgroundButton =
+                new Button(
+                    _graphics.GraphicsDevice,           // device reference
+                    new Rectangle(10, 40, 200, 100),    // position and size of button
+                    "Random BG",                        // button label
+                    font,                               // label font
+                    Color.Black);                       // button color
+
+            Button addSomethingButton =
+                new Button(
+                    _graphics.GraphicsDevice,
+                    new Rectangle(10, 160, 200, 100),
+                    "Add",
+                    font,
+                    Color.AliceBlue);
+
+            Button removeSomethingButton =
+                new Button(
+                    _graphics.GraphicsDevice,
+                    new Rectangle(10, 280, 200, 100),
+                    "Remove",
+                    font,
+                    Color.DarkSeaGreen);
+
+            // Add them, in order, to the Button list.
+            buttons.Add(changeBackgroundButton);
+            buttons.Add(addSomethingButton);
+            buttons.Add(removeSomethingButton);
+
+            // ****************************************************************
+            // TODO: Load your sprite
+            // ****************************************************************
+
+
+            // ****************************************************************
+            // TODO: Subscribe methods to the buttons' event
+            // ****************************************************************
+
+        }
+
+
+        protected override void Update(GameTime gameTime)
+        {
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
+                Keyboard.GetState().IsKeyDown(Keys.Escape))
+                Exit();
+
+            // Update each Button (which internally checks if the Button has been clicked.)  
+            // If it has been clicked, an action will occur.
+            // This action is defined in the Button class.
+            foreach (Button button in buttons)
+            {
+                button.Update();
+            }
+
+            base.Update(gameTime);
+        }
+
+
+        protected override void Draw(GameTime gameTime)
+        {
+            // Clears to gray
+            GraphicsDevice.Clear(bgColor);
+
+            // Begin the SpriteBatch
+            _spriteBatch.Begin();
+
+            // ****************************************************************
+            // TODO: Any drawing code needed to complete the PE tasks can be put here.
+            // ****************************************************************
+
+
+
+
+            // Draw all buttons in the foreground and layered
+            //   "on top" of any other entities in the game.
+            foreach (Button button in buttons)
+            {
+                button.Draw(_spriteBatch);
+            }
+
+            // End the SpriteBatch
+            _spriteBatch.End();
+
+            // Parent (Game) call to Draw
+            base.Draw(gameTime);
+        }
+
+
+        /// <summary>
+        /// Method that changes the background color of the game window.
+        /// </summary>
+        public void RandomizeBackground()
+        {
+            // Set the background color variable to a random color
+            bgColor = new Color(rng.Next(0, 256), rng.Next(0, 256), rng.Next(0, 256));
+        }
+
+
+        // ********************************************************************
+        // TODO: Add any new methods for completing your PE tasks here.
+        // ********************************************************************
+
+    }
+}
