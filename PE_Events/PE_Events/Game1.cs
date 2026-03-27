@@ -11,7 +11,13 @@ namespace PE_Events
     {
         // *********************************************************
         // TODO: A D D    Y O U R    N A M E    H E R E
+
+        //         Evan Safko
+
         // TODO: P U T    T H E    D A T E    H E R E
+        
+        //         3/25/26 - 3/27/26
+        
         // *********************************************************
         // PE:  Button Class for Events and Delegates
         // Project starter code written by Erika Mesh/Erin Cascioli
@@ -28,11 +34,19 @@ namespace PE_Events
         private List<Button> buttons;
         private Color bgColor;
         private Random rng;
+        private Texture2D texture;
 
         // ********************************************************************
         // TODO: Add any new fields you need here!
         // ********************************************************************
 
+        private int CountClick;
+        
+        //attempt to add random floats for the Vector2 to randomly select where the sprite goes
+
+        //private float randX = Random(0, 400);
+
+        //private double randY = Random(0, 400);
 
 
         public Game1()
@@ -53,6 +67,12 @@ namespace PE_Events
             // ****************************************************************
             // TODO: Initialize any new fields you need here!
             // ****************************************************************
+            
+            
+
+            //randX = new Random(0, 400);
+            
+            //randY = new Random(0, 400);
 
             base.Initialize();
         }
@@ -99,10 +119,21 @@ namespace PE_Events
             // TODO: Load your sprite
             // ****************************************************************
 
+            texture = Content.Load<Texture2D>("NewSprite");
 
             // ****************************************************************
             // TODO: Subscribe methods to the buttons' event
             // ****************************************************************
+
+            buttons[0].OnLeftButtonClick += this.RandomizeBackground;
+            buttons[0].OnLeftButtonClick += this.CountLeftButtonClicks;
+
+            buttons[0].OnRightButtonClick += this.RandomizeBackground;
+            buttons[0].OnRightButtonClick += this.CountLeftButtonClicks;
+
+            //buttons[1].OnLeftButtonClick +=
+
+            //buttons[2].OnLeftButtonClick += this.
 
         }
 
@@ -138,6 +169,14 @@ namespace PE_Events
             // ****************************************************************
 
 
+            //tried to add the spritebatch to be able to draw the sprite randomly, I have no idea how to get the
+            //Vector 2's to accept the random numbers even though I tried making them floats or doubles
+
+            //_spriteBatch.Draw(
+            //      texture,
+            //      new Vector2(Random(0, 200), Random rand(0, 200)),
+            //      Color.Red
+            //      );
 
 
             // Draw all buttons in the foreground and layered
@@ -146,6 +185,22 @@ namespace PE_Events
             {
                 button.Draw(_spriteBatch);
             }
+
+            
+            
+            
+            //foreach (int var in CountClick)
+            //{
+            _spriteBatch.DrawString(
+                font,
+                ($"Current Clicks: {CountClick.ToString()}"),
+                new Vector2(250, 50),
+                Color.Black
+                );
+           // }
+
+
+
 
             // End the SpriteBatch
             _spriteBatch.End();
@@ -168,6 +223,19 @@ namespace PE_Events
         // ********************************************************************
         // TODO: Add any new methods for completing your PE tasks here.
         // ********************************************************************
+
+        //adds count to the number
+        public void CountLeftButtonClicks()
+        {
+            CountClick++;
+        }
+
+        //adds count to the number (should probably have seperated it from the left button click count)
+        public void CountRightButtonClicks()
+        {
+            CountClick++;
+        }
+
 
     }
 }

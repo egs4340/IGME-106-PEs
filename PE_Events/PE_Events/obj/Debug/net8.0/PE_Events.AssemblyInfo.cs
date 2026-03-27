@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Events")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1b812b574417feea2605504ca4661cb207dfde8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d745d09f7d98e3d2aa04d0f2fcfa24ed476b745d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Events")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Events")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

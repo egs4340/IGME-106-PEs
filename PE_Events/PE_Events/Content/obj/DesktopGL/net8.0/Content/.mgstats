@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/ButtonFont.spritefont","C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/bin/DesktopGL/Content/ButtonFont.xnb","FontDescriptionProcessor","SpriteFontContent",2065,37913,0.1651083
+"C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/Redvan.png","C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/bin/DesktopGL/Content/Redvan.xnb","TextureProcessor","Texture2DContent",1831046,12312085,0.423658

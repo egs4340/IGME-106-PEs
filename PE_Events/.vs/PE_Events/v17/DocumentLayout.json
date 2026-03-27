@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +32,10 @@
               "RelativeDocumentMoniker": "PE_Events\\Game1.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Events\\PE_Events\\Game1.cs",
               "RelativeToolTip": "PE_Events\\Game1.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAIwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAYwHkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T17:04:46.956Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "PE_Events\\Button.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Events\\PE_Events\\Button.cs",
               "RelativeToolTip": "PE_Events\\Button.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T17:04:12.894Z",
               "EditorCaption": ""

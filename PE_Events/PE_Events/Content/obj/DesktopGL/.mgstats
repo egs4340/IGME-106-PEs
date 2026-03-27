@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/ButtonFont.spritefont","C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/bin/DesktopGL/ButtonFont.xnb","FontDescriptionProcessor","SpriteFontContent",2065,37913,0.1526108
+"C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/stuey griffin.png","C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/bin/DesktopGL/randomSprite.xnb","TextureProcessor","Texture2DContent",295719,1118917,0.0493235

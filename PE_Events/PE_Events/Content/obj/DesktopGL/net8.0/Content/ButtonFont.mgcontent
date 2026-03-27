@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/ButtonFont.spritefont</SourceFile>
+  <SourceTime>2026-03-25T13:03:15.92914-04:00</SourceTime>
+  <DestFile>C:/Users/evans/source/repos/IGME-106-PEs/PE_Events/PE_Events/Content/bin/DesktopGL/Content/ButtonFont.xnb</DestFile>
+  <DestTime>2026-03-26T18:47:27.3434147-04:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2025-06-02T06:31:02-04:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2025-06-02T06:31:02-04:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

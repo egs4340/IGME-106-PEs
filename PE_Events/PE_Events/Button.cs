@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace PE_Events
 {
+    //Added the public delegate
+    public delegate void OnButtonClickDelegate();
+
     internal class Button
     {   // Positioning
         private SpriteFont font;
@@ -27,6 +30,10 @@ namespace PE_Events
         // **************************************************************************
         // TODO: Add your event(s) here!
         // **************************************************************************
+        
+        public event OnButtonClickDelegate OnLeftButtonClick;
+
+        public event OnButtonClickDelegate OnRightButtonClick;
 
         /// <summary>
         /// Create a new custom button
@@ -89,11 +96,27 @@ namespace PE_Events
                 // ************************************************************
                 // TODO: Invoke the event here
                 // ************************************************************
+                //Call ALL methods attatched to this button
+                if (OnLeftButtonClick != null)
+                {
+                    OnLeftButtonClick();
+                }
+
             }
 
             // ****************************************************************
             // TODO: Add right-click detection here
             // ****************************************************************
+            if (mState.RightButton == ButtonState.Released &&
+                prevMState.RightButton == ButtonState.Pressed &&
+                rect.Contains(mState.Position))
+            {
+                //Call ALL methods attatched to this button
+                if (OnRightButtonClick != null)
+                {
+                    OnRightButtonClick();
+                }
+            }
 
             // Save state as previous so it's up to date for next frame
             prevMState = mState;
