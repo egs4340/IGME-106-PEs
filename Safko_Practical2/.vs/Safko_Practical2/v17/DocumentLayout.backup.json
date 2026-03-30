@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\Safko_Practical2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07968E6E-8D68-442F-9076-A29B94E2A933}|Safko_Practical2\\Safko_Practical2.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\safko_practical2\\safko_practical2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07968E6E-8D68-442F-9076-A29B94E2A933}|Safko_Practical2\\Safko_Practical2.csproj|solutionrelative:safko_practical2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\Safko_Practical2\\Safko_Practical2\\Game1.cs",
+              "RelativeDocumentMoniker": "Safko_Practical2\\Game1.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\Safko_Practical2\\Safko_Practical2\\Game1.cs",
+              "RelativeToolTip": "Safko_Practical2\\Game1.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAowJYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T14:06:11.032Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
