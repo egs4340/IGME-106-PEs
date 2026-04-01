@@ -1,0 +1,1 @@
+Left click places stars. Right click removes stars. C clears all stars.
