@@ -37,7 +37,8 @@ namespace PE_Recursion
                 Exit();
 
             // TODO: Add your update logic here
-
+            
+            
             base.Update(gameTime);
         }
 
@@ -57,7 +58,17 @@ namespace PE_Recursion
             ShapeBatch.Begin(GraphicsDevice);
 
             // TODO: Call your recursive fractal method here
+            ShapeBatch.Triangle(
+                new Vector2(50, 50),
+                50,
+                Color.AliceBlue);
 
+            KeyboardState kbState = Keyboard.GetState();
+
+            if (kbState.IsKeyDown(Keys.R))
+            {
+                DrawExampleShapes(gameTime);
+            }
 
             // Draws several example shapes
             // Note: COMMENT OUT the following line
