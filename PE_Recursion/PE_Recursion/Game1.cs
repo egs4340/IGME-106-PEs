@@ -58,16 +58,19 @@ namespace PE_Recursion
             ShapeBatch.Begin(GraphicsDevice);
 
             // TODO: Call your recursive fractal method here
-            ShapeBatch.Triangle(
-                new Vector2(50, 50),
-                50,
-                Color.AliceBlue);
+            
 
             KeyboardState kbState = Keyboard.GetState();
 
             if (kbState.IsKeyDown(Keys.R))
             {
                 DrawExampleShapes(gameTime);
+            }
+
+
+            if (kbState.IsKeyDown(Keys.G))
+            {
+                DrawMyRecursion(gameTime);
             }
 
             // Draws several example shapes
@@ -132,6 +135,78 @@ namespace PE_Recursion
             ShapeBatch.TriangleOutline(new Vector2(650, 150), 60, Color.Orange);
             ShapeBatch.TriangleOutline(new Vector2(650, 275), 60, rotation / -2.0f, Color.Red, Color.ForestGreen, Color.Blue);
             ShapeBatch.TriangleOutline(new Vector2(650, 450), new Vector2(550, 360), new Vector2(750, 400), Color.CornflowerBlue);
+        }
+
+        //my own recursion sequence
+        public void DrawMyRecursion(GameTime gt)
+        {
+            float rotation = (float)gt.TotalGameTime.TotalSeconds;
+
+            ShapeBatch.Triangle(
+                new Vector2(50, 50),
+                50,
+                Color.AliceBlue, 
+                Color.Azure, 
+                Color.Coral);
+
+            ShapeBatch.Triangle(
+                new Vector2(100, 50),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+            ShapeBatch.Triangle(
+                new Vector2(150, 50),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+            ShapeBatch.Triangle(
+                new Vector2(200, 50),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(250, 50),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(300, 50),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(350, 50),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(400, 50),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(450, 50),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
         }
 
 
