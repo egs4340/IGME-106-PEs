@@ -32,8 +32,15 @@ namespace PE_TreeExercise
             /// <param name="data">The data to add</param>
             public void Add(int data)
             {
-                // *** Fill in this method *************************************
-
+            // *** Fill in this method *************************************
+            if (root == null)
+            {
+                root.Data = data;
+            }
+            else
+            {
+                new TreeNode(root.Data);
+            }
 
                 // *************************************************************
             }
