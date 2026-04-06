@@ -141,225 +141,59 @@ namespace PE_Recursion
         public void DrawMyRecursion(GameTime gt)
         {
             float rotation = (float)gt.TotalGameTime.TotalSeconds;
+            float sinWave = MathF.Sin(rotation) + 2.0f;
 
-            ShapeBatch.Triangle(
-                new Vector2(50, 50),
-                50,
-                Color.AliceBlue, 
-                Color.Azure, 
-                Color.Coral);
+            //top row of triangles
+            ShapeBatch.Triangle(new Vector2(50, 50), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(100, 50), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(150, 50), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(200, 50), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(250, 50), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(300, 50), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(350, 50), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(400, 50), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(450, 50), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(500, 50), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(550, 50), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(600, 50), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(650, 50), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(700, 50), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(750, 50), 50, Color.AliceBlue, Color.Azure, Color.Coral);
 
-            ShapeBatch.Triangle(
-                new Vector2(100, 50),
-                50,
-                rotation,
-                Color.CadetBlue);
+            //bottom row of triangles
+            ShapeBatch.Triangle(new Vector2(50, 450), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(100, 450), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(150, 450), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(200, 450), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(250, 450), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(300, 450), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(350, 450), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(400, 450), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(450, 450), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(500, 450), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(550, 450), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(600, 450), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(650, 450), 50, Color.AliceBlue, Color.Azure, Color.Coral);
+            ShapeBatch.Triangle(new Vector2(700, 450), 50, rotation, Color.CadetBlue);
+            ShapeBatch.Triangle(new Vector2(750, 450), 50, Color.AliceBlue, Color.Azure, Color.Coral);
 
-            ShapeBatch.Triangle(
-                new Vector2(150, 50),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
+            //left side circles
+            ShapeBatch.Circle(new Vector2(50, 100), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(50, 150), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(50, 200), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(50, 250), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(50, 300), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(50, 350), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(50, 400), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
 
-            ShapeBatch.Triangle(
-                new Vector2(200, 50),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(250, 50),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(300, 50),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(350, 50),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(400, 50),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(450, 50),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-            ShapeBatch.Triangle(
-                new Vector2(500, 50),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(550, 50),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(600, 50),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(650, 50),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(700, 50),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(750, 50),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(50, 450),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-            ShapeBatch.Triangle(
-                new Vector2(100, 450),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-            ShapeBatch.Triangle(
-                new Vector2(150, 450),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-            ShapeBatch.Triangle(
-                new Vector2(200, 450),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(250, 450),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(300, 450),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(350, 450),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(400, 450),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(450, 450),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-            ShapeBatch.Triangle(
-                new Vector2(500, 450),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(550, 450),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-
-            ShapeBatch.Triangle(
-                new Vector2(600, 450),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(650, 450),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(700, 450),
-                50,
-                rotation,
-                Color.CadetBlue);
-
-
-            ShapeBatch.Triangle(
-                new Vector2(750, 450),
-                50,
-                Color.AliceBlue,
-                Color.Azure,
-                Color.Coral);
-
+            //right side circles
+            ShapeBatch.Circle(new Vector2(750, 100), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(750, 150), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(750, 200), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(750, 250), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(750, 300), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(750, 350), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
+            ShapeBatch.Circle(new Vector2(750, 400), sinWave * 5.0f, Color.DarkSeaGreen, Color.CadetBlue);
         }
 
 
