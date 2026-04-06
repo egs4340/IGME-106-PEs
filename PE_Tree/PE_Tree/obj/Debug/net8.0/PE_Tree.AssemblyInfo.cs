@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Tree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e912faa6148861cb9e3fef89788cdc75ed63cbb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e419a2e2b4ae21b11b80b3f38fdb4426edaa3962")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Tree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Tree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

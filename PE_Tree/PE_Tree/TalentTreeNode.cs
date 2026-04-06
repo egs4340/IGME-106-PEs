@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,28 +19,40 @@ namespace PE_Tree
         { 
             get { return abilityName; } 
 
-            set { abilityName = value; }
+            set { abilityName = ""; }
+        }
+
+        public bool talentLearned
+        {
+            get { return talentLearned; }
+            set { talentLearned = true; }
         }
 
         //TalentTree Constructor
+
         public TalentTreeNode()
         {
-            this.AbName = "";
-
-
+            this.AbName = "Fireball";
+            this.talentLearned = true;
         }
 
+        TalentTreeNode leftNode = new TalentTreeNode();
 
+        TalentTreeNode rightNode = new TalentTreeNode();
 
         //method for List all talents
         internal void ListAllTalents()
         {
-            
+            AbName = "Fireball, Big Fireball, Small Fireball";
         }
 
         //method for List known talents
         internal void ListKnownTalents()
         {
+            if (talentLearned = true)
+            {
+                this.ListAllTalents();
+            }
 
         }
 
@@ -47,9 +61,6 @@ namespace PE_Tree
         {
 
         }
-
-
-
 
     }
 }

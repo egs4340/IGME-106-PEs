@@ -32,9 +32,10 @@
               "RelativeDocumentMoniker": "PE_Recursion\\ShapeBatch.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Recursion\\PE_Recursion\\ShapeBatch.cs",
               "RelativeToolTip": "PE_Recursion\\ShapeBatch.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwHMAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAADgBAAAAAAAAAAAAAHMAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T15:46:10.973Z"
+              "WhenOpened": "2026-03-27T15:46:10.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "PE_Recursion\\Game1.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Recursion\\PE_Recursion\\Game1.cs",
               "RelativeToolTip": "PE_Recursion\\Game1.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAADwv8oAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFQBAAAAAAAAAAAIwGgBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T15:37:02.926Z",
               "EditorCaption": ""

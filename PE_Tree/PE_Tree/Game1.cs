@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Runtime.CompilerServices;
 
 namespace PE_Tree
 {
@@ -8,6 +9,8 @@ namespace PE_Tree
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private TalentTreeNode leftNode;
+        private TalentTreeNode rightNode;
 
         public Game1()
         {
@@ -36,6 +39,8 @@ namespace PE_Tree
                 Exit();
 
             // TODO: Add your update logic here
+            leftNode.ListPossibleTalents();
+            rightNode.ListPossibleTalents();
 
             base.Update(gameTime);
         }

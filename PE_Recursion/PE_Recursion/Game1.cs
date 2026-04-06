@@ -206,6 +206,159 @@ namespace PE_Recursion
                 Color.Azure,
                 Color.Coral);
 
+            ShapeBatch.Triangle(
+                new Vector2(500, 50),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(550, 50),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(600, 50),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(650, 50),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(700, 50),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(750, 50),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(50, 450),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+            ShapeBatch.Triangle(
+                new Vector2(100, 450),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+            ShapeBatch.Triangle(
+                new Vector2(150, 450),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+            ShapeBatch.Triangle(
+                new Vector2(200, 450),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(250, 450),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(300, 450),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(350, 450),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(400, 450),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(450, 450),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+            ShapeBatch.Triangle(
+                new Vector2(500, 450),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(550, 450),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+
+            ShapeBatch.Triangle(
+                new Vector2(600, 450),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(650, 450),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(700, 450),
+                50,
+                rotation,
+                Color.CadetBlue);
+
+
+            ShapeBatch.Triangle(
+                new Vector2(750, 450),
+                50,
+                Color.AliceBlue,
+                Color.Azure,
+                Color.Coral);
 
         }
 
