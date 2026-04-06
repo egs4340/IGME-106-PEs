@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_TreeExercise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E42BAF4-51C1-49E3-9D1A-82FF68C9DC7B}|PE_TreeExercise\\PE_TreeExercise.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_treeexercise\\pe_treeexercise\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E42BAF4-51C1-49E3-9D1A-82FF68C9DC7B}|PE_TreeExercise\\PE_TreeExercise.csproj|solutionrelative:pe_treeexercise\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E42BAF4-51C1-49E3-9D1A-82FF68C9DC7B}|PE_TreeExercise\\PE_TreeExercise.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_treeexercise\\pe_treeexercise\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E42BAF4-51C1-49E3-9D1A-82FF68C9DC7B}|PE_TreeExercise\\PE_TreeExercise.csproj|solutionrelative:pe_treeexercise\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E42BAF4-51C1-49E3-9D1A-82FF68C9DC7B}|PE_TreeExercise\\PE_TreeExercise.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_treeexercise\\pe_treeexercise\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E42BAF4-51C1-49E3-9D1A-82FF68C9DC7B}|PE_TreeExercise\\PE_TreeExercise.csproj|solutionrelative:pe_treeexercise\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E42BAF4-51C1-49E3-9D1A-82FF68C9DC7B}|PE_TreeExercise\\PE_TreeExercise.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_treeexercise\\pe_treeexercise\\drawabletree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,18 +42,17 @@
               "RelativeToolTip": "PE_TreeExercise\\DrawableTree.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAwIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T00:39:14.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T00:39:14.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_TreeExercise\\PE_TreeExercise\\Game1.cs",
               "RelativeDocumentMoniker": "PE_TreeExercise\\Game1.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_TreeExercise\\PE_TreeExercise\\Game1.cs",
               "RelativeToolTip": "PE_TreeExercise\\Game1.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T00:38:29.115Z",
               "EditorCaption": ""
@@ -68,18 +67,17 @@
               "RelativeToolTip": "PE_TreeExercise\\TreeNode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwCwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T00:37:18.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T00:37:18.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Tree.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_TreeExercise\\PE_TreeExercise\\Tree.cs",
               "RelativeDocumentMoniker": "PE_TreeExercise\\Tree.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_TreeExercise\\PE_TreeExercise\\Tree.cs",
               "RelativeToolTip": "PE_TreeExercise\\Tree.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T00:36:25.014Z",
               "EditorCaption": ""

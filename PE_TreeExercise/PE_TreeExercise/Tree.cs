@@ -52,9 +52,9 @@ namespace PE_TreeExercise
             /// <param name="node">The node to attempt to add into</param>
             private void Add(int data, TreeNode node)
             {
-                // *** Fill in this method *************************************
-
-
+            // *** Fill in this method *************************************
+            TreeNode tree = new TreeNode(data);
+            data = tree.Data;
                 // *************************************************************
             
             }

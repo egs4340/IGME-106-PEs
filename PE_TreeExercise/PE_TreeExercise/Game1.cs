@@ -37,9 +37,9 @@ namespace PE_TreeExercise
             treeBlue = new Tree(_spriteBatch, Color.DodgerBlue);
 
             // *** FILL EACH TREE WITH DATA HERE ***************************
-
-
-
+            treeRed.Add(0);
+            treeGreen.Add(0);
+            treeBlue.Add(0);
             // *************************************************************
         }
 
