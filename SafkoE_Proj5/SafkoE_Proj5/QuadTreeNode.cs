@@ -59,6 +59,11 @@ namespace SafkoE_Proj5
             // TODO: Complete this recursive AddObject method
             // ----------------------------------------------------------
 
+			if (GameObjects.Count < 4)
+			{
+				GameObjects.Add(gameObj);
+			}
+
 
 			// You MAY modify this statement.
             return false;
@@ -71,9 +76,14 @@ namespace SafkoE_Proj5
 		/// </summary>
 		public void Divide()
 		{
-            // ----------------------------------------------------------
-            // TODO: Complete this Divide method
-            // ----------------------------------------------------------
+			// ----------------------------------------------------------
+			// TODO: Complete this Divide method
+			// ----------------------------------------------------------
+			if (GameObjects.Count > MaxObjectsBeforeSubdivide)
+			{
+				Bounds
+			}
+
         }
 
         /// <summary>
@@ -92,7 +102,10 @@ namespace SafkoE_Proj5
             // TODO: Complete the rest of this recursive GetAllQuadBounds in here
 			rects.Add(Bounds);
 
-
+			if (rects.Count > 4)
+			{
+				Divide();
+			}
 
 
             // ----------------------------------------------------------

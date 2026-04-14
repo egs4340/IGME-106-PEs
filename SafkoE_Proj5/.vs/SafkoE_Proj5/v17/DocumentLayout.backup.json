@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|solutionrelative:safkoe_proj5\\quadtreenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_proj5\\safkoe_proj5\\shapebatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|solutionrelative:safkoe_proj5\\shapebatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_proj5\\safkoe_proj5\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|solutionrelative:safkoe_proj5\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_proj5\\safkoe_proj5\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|solutionrelative:safkoe_proj5\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\safkoe_proj5\\safkoe_proj5\\shapebatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1E8D41-042C-4F99-9C6D-CEF9B02E6501}|SafkoE_Proj5\\SafkoE_Proj5.csproj|solutionrelative:safkoe_proj5\\shapebatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ShapeBatch.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj5\\SafkoE_Proj5\\ShapeBatch.cs",
               "RelativeDocumentMoniker": "SafkoE_Proj5\\ShapeBatch.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj5\\SafkoE_Proj5\\ShapeBatch.cs",
               "RelativeToolTip": "SafkoE_Proj5\\ShapeBatch.cs",
-              "ViewState": "AgIAAHAEAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAMADAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T21:48:35.48Z",
               "EditorCaption": ""
@@ -49,27 +53,27 @@
               "RelativeDocumentMoniker": "SafkoE_Proj5\\QuadTreeNode.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj5\\SafkoE_Proj5\\QuadTreeNode.cs",
               "RelativeToolTip": "SafkoE_Proj5\\QuadTreeNode.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAswF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T21:48:31.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj5\\SafkoE_Proj5\\Game1.cs",
               "RelativeDocumentMoniker": "SafkoE_Proj5\\Game1.cs",
               "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj5\\SafkoE_Proj5\\Game1.cs",
               "RelativeToolTip": "SafkoE_Proj5\\Game1.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAcwAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T21:48:24.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\SafkoE_Proj5\\SafkoE_Proj5\\GameObject.cs",
               "RelativeDocumentMoniker": "SafkoE_Proj5\\GameObject.cs",
@@ -79,10 +83,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T21:48:02.065Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
