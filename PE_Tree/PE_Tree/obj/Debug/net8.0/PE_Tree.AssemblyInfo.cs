@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Tree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e419a2e2b4ae21b11b80b3f38fdb4426edaa3962")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bf1b98e85b20c20c6482903e356a230bea1eb6b")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Tree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Tree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

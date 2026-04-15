@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Graphs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b65b52e8303c407fb939de0fc56e525cf7212e16")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bf1b98e85b20c20c6482903e356a230bea1eb6b")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Graphs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Graphs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

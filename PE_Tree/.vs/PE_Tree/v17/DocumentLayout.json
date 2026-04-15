@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Tree\\",
+  "WorkspaceRootPath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Tree\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{3A2D5626-936F-4DAB-ADA6-57100C53C986}|PE_Tree\\PE_Tree.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_tree\\pe_tree\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A2D5626-936F-4DAB-ADA6-57100C53C986}|PE_Tree\\PE_Tree.csproj|solutionrelative:pe_tree\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A2D5626-936F-4DAB-ADA6-57100C53C986}|PE_Tree\\PE_Tree.csproj|c:\\users\\evans\\source\\repos\\igme-106-pes\\pe_tree\\pe_tree\\talenttreenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{3A2D5626-936F-4DAB-ADA6-57100C53C986}|PE_Tree\\PE_Tree.csproj|d:\\profiles\\egs4340\\documents\\github\\igme-106-pe\\pe_tree\\pe_tree\\talenttreenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{3A2D5626-936F-4DAB-ADA6-57100C53C986}|PE_Tree\\PE_Tree.csproj|solutionrelative:pe_tree\\talenttreenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -41,11 +45,15 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TalentTreeNode.cs",
-              "DocumentMoniker": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Tree\\PE_Tree\\TalentTreeNode.cs",
+              "DocumentMoniker": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Tree\\PE_Tree\\TalentTreeNode.cs",
               "RelativeDocumentMoniker": "PE_Tree\\TalentTreeNode.cs",
-              "ToolTip": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Tree\\PE_Tree\\TalentTreeNode.cs",
+              "ToolTip": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Tree\\PE_Tree\\TalentTreeNode.cs",
               "RelativeToolTip": "PE_Tree\\TalentTreeNode.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAACkAAAAAAAAAAAAgwC0AAAA+AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T05:30:35.479Z"
             }

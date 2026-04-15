@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "50F+d1RLpYk=",
   "success": true,
   "projectFilePath": "C:\\Users\\evans\\source\\repos\\IGME-106-PEs\\PE_Graphs\\PE_Graphs\\PE_Graphs.csproj",
@@ -11,6 +12,19 @@
     "C:\\Users\\evans\\.nuget\\packages\\nvorbis\\0.10.4\\nvorbis.0.10.4.nupkg.sha512",
     "C:\\Users\\evans\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\evans\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+=======
+  "dgSpecHash": "9OvO45f73hQ=",
+  "success": true,
+  "projectFilePath": "D:\\Profiles\\egs4340\\Documents\\GitHub\\IGME-106-PE\\PE_Graphs\\PE_Graphs\\PE_Graphs.csproj",
+  "expectedPackageFiles": [
+    "D:\\Profiles\\egs4340\\.nuget\\packages\\monogame.content.builder.task\\3.8.4.1\\monogame.content.builder.task.3.8.4.1.nupkg.sha512",
+    "D:\\Profiles\\egs4340\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.4.1\\monogame.framework.desktopgl.3.8.4.1.nupkg.sha512",
+    "D:\\Profiles\\egs4340\\.nuget\\packages\\monogame.library.openal\\1.24.3.2\\monogame.library.openal.1.24.3.2.nupkg.sha512",
+    "D:\\Profiles\\egs4340\\.nuget\\packages\\monogame.library.sdl\\2.32.2.1\\monogame.library.sdl.2.32.2.1.nupkg.sha512",
+    "D:\\Profiles\\egs4340\\.nuget\\packages\\nvorbis\\0.10.4\\nvorbis.0.10.4.nupkg.sha512",
+    "D:\\Profiles\\egs4340\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "D:\\Profiles\\egs4340\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+>>>>>>> Stashed changes
   ],
   "logs": []
 }
