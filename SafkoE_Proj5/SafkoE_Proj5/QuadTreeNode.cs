@@ -58,7 +58,8 @@ namespace SafkoE_Proj5
             // ----------------------------------------------------------
             // TODO: Complete this recursive AddObject method
             // ----------------------------------------------------------
-
+			
+			//The GameObject's ability to add to the list
 			if (GameObjects.Count < 4)
 			{
 				GameObjects.Add(gameObj);
@@ -79,9 +80,11 @@ namespace SafkoE_Proj5
 			// ----------------------------------------------------------
 			// TODO: Complete this Divide method
 			// ----------------------------------------------------------
+			//the divisions method wouldn't work
 			if (GameObjects.Count > MaxObjectsBeforeSubdivide)
 			{
-				Bounds
+
+				//GameObjects[Divisions];
 			}
 
         }
@@ -98,16 +101,19 @@ namespace SafkoE_Proj5
 			// DO NOT MODIFY THIS STATEMENT:
 			List<Rectangle> rects = new List<Rectangle>();
 
-            // ----------------------------------------------------------
-            // TODO: Complete the rest of this recursive GetAllQuadBounds in here
-			rects.Add(Bounds);
+			// ----------------------------------------------------------
+			// TODO: Complete the rest of this recursive GetAllQuadBounds in here
 
-			if (rects.Count > 4)
-			{
-				Divide();
-			}
+			//Unable to get this to work without crashing the program, but here is the code
 
 
+			//rects.AddRange(rects);
+
+			//if (rects.Count > 4)
+			//{
+			//	//Divide();
+			//	return rects;
+			//}
             // ----------------------------------------------------------
 
             // DO NOT MODIFY THIS STATEMENT:
@@ -125,6 +131,25 @@ namespace SafkoE_Proj5
             // ----------------------------------------------------------
             // TODO: Complete this recursive GetSmallestContainingQuad method
             // ----------------------------------------------------------
+
+			//much of this code also caused problem that just completely stopped the program from being able to run
+			//if (gameObjectRect.IsEmpty)
+			//{
+			//	//return null;
+			//}
+
+			//if (GetAllQuadBounds().Contains(gameObjectRect))
+			//{
+   //             //return null;
+			//}
+
+			//if (Bounds.Contains(gameObjectRect))
+
+			//{
+			//	GetSmallestContainingQuad(gameObjectRect);
+			//}
+
+
 
             // You MAY modify this statement.
             return null;
