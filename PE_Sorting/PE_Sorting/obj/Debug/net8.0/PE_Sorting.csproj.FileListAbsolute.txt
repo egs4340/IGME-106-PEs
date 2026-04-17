@@ -1,0 +1,15 @@
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\bin\Debug\net8.0\PE_Sorting.exe
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\bin\Debug\net8.0\PE_Sorting.deps.json
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\bin\Debug\net8.0\PE_Sorting.runtimeconfig.json
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\bin\Debug\net8.0\PE_Sorting.dll
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\bin\Debug\net8.0\PE_Sorting.pdb
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\PE_Sorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\PE_Sorting.AssemblyInfoInputs.cache
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\PE_Sorting.AssemblyInfo.cs
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\PE_Sorting.csproj.CoreCompileInputs.cache
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\PE_Sorting.sourcelink.json
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\PE_Sorting.dll
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\refint\PE_Sorting.dll
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\PE_Sorting.pdb
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\PE_Sorting.genruntimeconfig.cache
+D:\Profiles\egs4340\Documents\GitHub\IGME-106-PE\PE_Sorting\PE_Sorting\obj\Debug\net8.0\ref\PE_Sorting.dll
