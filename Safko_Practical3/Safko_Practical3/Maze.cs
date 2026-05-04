@@ -13,7 +13,7 @@ namespace Safko_Practical3
     // ---------------------------------------------------------------------------
     // 4 possible Maze Tile values 
     // ---------------------------------------------------------------------------
-    enum Tile
+    public enum Tile
     {
         Empty,
         Wall,
@@ -335,8 +335,13 @@ namespace Safko_Practical3
             //    - Which data structure is needed for that type of search?
             // -------------------------------------------------------------------------
             // YOUR ANSWER:
+            
+            // I'm going to be trying to implement a depth first search, as I think that might be the easiest way for the code to traverse the maze
+            // 
 
+            Vertex currentVertex = new Vertex(startVertex.X, startVertex.Y, startVertex.Data);
 
+            
 
             // -------------------------------------------------------------------------
             // 2. UNCOMMENT & use the SINGLE MOST APPROPRIATE structure below for your search.
