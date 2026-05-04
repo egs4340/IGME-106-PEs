@@ -463,14 +463,44 @@ namespace Safko_Practical3
         /// </summary>
         /// <param name="number">Integer value</param>
         /// <returns>The sum of all digits in a number</returns>
+        /// 
+
+        // My very own CalcDigitSum Method!
+        // (On the paper it uses the numbers '12345', but my code has 1234. I don't know if the code was supposed to be the 12345 or if that was just an example,
+        // but I figured I's just put this here in case)
         public int CalcDigitSum(int number)
         {
-            int sumAdd = 0;
-            while (sumAdd != number)
+            if (number < 10)
             {
-                sumAdd++;
+                return number;
             }
-            return sumAdd;
+
+            if (number > 10 && number < 100)
+            {
+                number = (number % 10) + ((number /10) % 10);
+            }
+
+            if (number > 100 && number < 1000)
+            {
+                number = (number % 10) + (((number / 10) /10) % 10) + ((number / 10) % 10);
+            }
+
+            if (number > 1000 && number < 10000)
+            {
+                number = (number % 10) + ((((number / 10) / 10) / 10) % 10) + (((number / 10) / 10) % 10) + ((number / 10) % 10);
+            }
+
+            if (number > 10000 && number < 100000)
+            {
+                number = (number % 10) + (((((number / 10) / 10) / 10) / 10) % 10) + ((((number / 10) / 10) / 10) % 10) + (((number / 10) / 10) % 10) + ((number / 10) % 10);
+            }
+
+            if (number > 100000 && number < 1000000)
+            {
+                number = (number % 10) + (((((((number / 10) / 10) / 10) / 10) / 10) /10) % 10) + ((((((number / 10) / 10) / 10) / 10) / 10) % 10)
+                    + (((((number / 10) / 10) / 10) / 10) % 10) + ((((number / 10) / 10) / 10) % 10) + (((number / 10) / 10) % 10) + ((number / 10) % 10);
+            }
+            return number;
         }
         #endregion
 
@@ -496,11 +526,17 @@ namespace Safko_Practical3
         //
         // Answer any or all of the questions below in comments!!!
         // -------------------------------------------------------------------------
-        // A:
+
+        // A: I have a few big takeaways from IGME 106, the first being that I DEFINITELY need more practice haha! It was a challenging course, maybe not to others, but
+        // that doesn't mean that I thought it was bad, quite the opposite. I think I learned more because of that, even if It meant I didn't grasp every concept we discussed in class.
         //
-        // B:
+        // B: I was actually able to understand a lot of ideas and concepts, both learned previously and recently, thanks to this course. Working with sprites, inputs, movements, collisions,
+        // and that awesome weird shape program (the one with the circles, lines, triangles, and squares that we got to move and do crazy stuff with). I was even able to better understand
+        // FileIOs, Arrays, and sprite sheets! And for the first time in my life, I was able to enjoy working in a team environment with people I never knew!
         //
-        // C:
+        // C: I learned that, as much as I want to make games, as much as I want to have this be my field of work and expertise, that I might not be ready for it, at least not yet (obviously).
+        // What I mean is, I think I might want to expand my gaze when it comes to game development. Maybe I'm not very good at coding yet, maybe I don't understand the concepts as much as I
+        // should've, maybe I just needed to be a harder worker. No matter what the cause is, the point remains that I'm not going to give up, but instead readjust and try again.
         //
         // -------------------------------------------------------------------------
         #endregion
