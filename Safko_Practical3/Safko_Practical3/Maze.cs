@@ -336,8 +336,8 @@ namespace Safko_Practical3
             // -------------------------------------------------------------------------
             // YOUR ANSWER:
 
-            // I'm going to be trying to implement a depth first search, as I think that might be the easiest way for the code to traverse the maze
-            // It requires a Queue data Structure
+            // I'm going to be trying to implement a Breadth first search, as I think that might be the easiest way for the code to traverse the maze
+            // I believe it requires a Queue data Structure
 
 
 
@@ -364,19 +364,69 @@ namespace Safko_Practical3
             Queue<Vertex> queue = new Queue<Vertex>();
 
 
+            //Vertexes for the next vertexes above, below, to the left, and to the right of the current vertex
+            Vertex nextUpper = new Vertex(currentVertex.X, currentVertex.Y-1, Tile.Empty);
+            Vertex nextDown = new Vertex(currentVertex.X, currentVertex.Y+1, Tile.Empty);
+            Vertex nextLeft = new Vertex(currentVertex.X-1, currentVertex.Y, Tile.Empty);
+            Vertex nextRight = new Vertex(currentVertex.X+1, currentVertex.Y, Tile.Empty);
+
+
             // -------------------------------------------------------------------------
             // 3. COMPLETE AN ITERATIVE GRAPH SEARCH HERE USING THE DATA STRUCTURE FROM ABOVE.
             // -------------------------------------------------------------------------
 
+            //My Attempt at making a queue structure for the 
             queue.Enqueue(currentVertex);
 
-            while (queue.Count > 0)
+            while (queue.Count > unVisited.Count)
             {
                 queue.Enqueue((Vertex)queue.Dequeue());
 
-                IsTileValid(currentVertex.X + 1, currentVertex.Y);
-                unVisited
-                
+                if (IsTileValid(currentVertex.X + 1, currentVertex.Y) == true)
+                {
+                    currentVertex = nextRight;
+                    
+                    //solutionPath.Add(currentVertex);
+                    currentVertex.Visited = true;
+                    //unVisited.Count--;
+
+                    queue.Dequeue();
+                }
+
+                if (IsTileValid(currentVertex.X - 1, currentVertex.Y) == true)
+                {
+                    currentVertex = nextLeft;
+
+                    currentVertex.Visited = true;
+                    //unVisited.Count--;
+
+                    queue.Dequeue();
+                }
+
+                if (IsTileValid(currentVertex.X, currentVertex.Y + 1) == true)
+                {
+                    currentVertex = nextLeft;
+
+                    currentVertex.Visited = true;
+                    //unVisited.Count--;
+
+                    queue.Dequeue();
+                }
+
+                if (IsTileValid(currentVertex.X, currentVertex.Y - 1) == true)
+                {
+                    currentVertex = nextLeft;
+
+                    currentVertex.Visited = true;
+                    //unVisited.Count--;
+
+                    queue.Dequeue();
+                }
+
+                if (currentVertex == endVertex)
+                {
+                    queue.Dequeue();
+                }
             }
 
 
@@ -415,7 +465,12 @@ namespace Safko_Practical3
         /// <returns>The sum of all digits in a number</returns>
         public int CalcDigitSum(int number)
         {
-            return 0;
+            int sumAdd = 0;
+            while (sumAdd != number)
+            {
+                sumAdd++;
+            }
+            return sumAdd;
         }
         #endregion
 
