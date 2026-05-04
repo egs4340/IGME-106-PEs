@@ -335,36 +335,58 @@ namespace Safko_Practical3
             //    - Which data structure is needed for that type of search?
             // -------------------------------------------------------------------------
             // YOUR ANSWER:
-            
+
             // I'm going to be trying to implement a depth first search, as I think that might be the easiest way for the code to traverse the maze
-            // 
+            // It requires a Queue data Structure
 
-            Vertex currentVertex = new Vertex(startVertex.X, startVertex.Y, startVertex.Data);
 
-            
+
+            Vertex currentVertex = startVertex;
+
+
+            List<Vertex> unVisited = new List<Vertex>();
+
+            foreach (var vertex in vertices)
+            {
+                vertex.Visited = false;
+                unVisited.Add(vertex);
+            }
+
+            currentVertex.Visited = true;
+
+
 
             // -------------------------------------------------------------------------
             // 2. UNCOMMENT & use the SINGLE MOST APPROPRIATE structure below for your search.
             // DELETE the remaining one.
             // -------------------------------------------------------------------------
 
-            // Queue<Vertex> queue = new Queue<Vertex>();
-            // Stack<Vertex> stack = new Stack<Vertex>();
-
+            Queue<Vertex> queue = new Queue<Vertex>();
 
 
             // -------------------------------------------------------------------------
             // 3. COMPLETE AN ITERATIVE GRAPH SEARCH HERE USING THE DATA STRUCTURE FROM ABOVE.
             // -------------------------------------------------------------------------
 
+            queue.Enqueue(currentVertex);
+
+            while (queue.Count > 0)
+            {
+                queue.Enqueue((Vertex)queue.Dequeue());
+
+                IsTileValid(currentVertex.X + 1, currentVertex.Y);
+                unVisited
+                
+            }
 
 
-            // -------------------------------------------------------------------------
-            // 4. ADD SOLUTION PATH TO SOLUTION LIST.
-            //    - Add vertices found during the search to the "path" List below
-            //    - You can use the solutionPathlist's AddRange() method to shorten necessary code.
-            // -------------------------------------------------------------------------
-            List<Vertex> solutionPath = new List<Vertex>();
+
+                // -------------------------------------------------------------------------
+                // 4. ADD SOLUTION PATH TO SOLUTION LIST.
+                //    - Add vertices found during the search to the "path" List below
+                //    - You can use the solutionPathlist's AddRange() method to shorten necessary code.
+                // -------------------------------------------------------------------------
+                List<Vertex> solutionPath = new List<Vertex>();
             //    - Add vertices found during the search to the List above
             //    - You can use the solutionPathList's AddRange() method if you want
 

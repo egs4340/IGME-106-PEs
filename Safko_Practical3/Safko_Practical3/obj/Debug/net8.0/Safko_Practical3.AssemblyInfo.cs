@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Safko_Practical3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd3a81d95b8885a4a0e52f07e80c023b602e049")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b21cad83e3cc68185b5e2ea7f112d3b28c763f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Safko_Practical3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Safko_Practical3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
